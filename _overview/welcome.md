@@ -276,5 +276,5 @@ Made easy for customers to deploy in multi regions(eg: Sydney, Germany) if you h
 {: id="advanced"}
 Embedded with WHMCS for dynamic billing to your customers for server resource usage like disk space, RAM or CPU usage for a periodic interval.
 
-Contact us at [info@virtengine.com](mailto:info@virtengine.com) with any questions or feedback.
+Contact us at [hello@virtengine.com](mailto:hello@virtengine.com) with any questions or feedback.
 {: .info}
