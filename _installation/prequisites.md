@@ -3,7 +3,7 @@ title: Pre-requisites
 order: 1
 ---
 
-We assume that you have a working [OpenNebula](https://opennebula.org){: target="_blank"}. If not, we are here to bring you in our grooves by asking for help in our [forum](https://forum.megam.io){: target="_blank"}.
+We assume that you have a working [OpenNebula](https://opennebula.org){: target="_blank"}. If not, we are here to bring you in our grooves by asking for help in our [forum](http://forums.virtengine.com){: target="_blank"}.
 
 You can setup OpenNebula backed by [ceph](http://ceph.com){: target="_blank"} or [lvm](https://wiki.ubuntu.com/Lvm){: target="_blank"} to store images.
 {: .info}
@@ -12,7 +12,7 @@ You can setup OpenNebula backed by [ceph](http://ceph.com){: target="_blank"} or
 
 ### Configuring OpenNebula
 
-[MegamVertice](/) provides a marketplace for one click launches.  We need a running [OpenNebula](http://opennebula.org){: target="_blank"} with templates and images.
+[VirtEngine](/) provides a marketplace for one click launches.  We need a running [OpenNebula](http://opennebula.org){: target="_blank"} with templates and images.
 
 
 ## Init script
@@ -30,21 +30,21 @@ To do this, download  and untar the images as per the instructions given below:
 
 ~~~bash
 
-$ wget -O ubuntu_14.04.img.tar.gz https://s3-ap-southeast-1.amazonaws.com/megampub/iso/ubuntu14.tar.gz
+$ wget -O ubuntu_14.04.img.tar.gz https://virtenginepub.blob.core.windows.net/iso/ubuntu14.tar.gz
 
-$ wget -O ubuntu_16.04.img.tar.gz https://s3-ap-southeast-1.amazonaws.com/megampub/iso/ubuntu_16.04.tar.gz
+$ wget -O ubuntu_16.04.img.tar.gz https://virtenginepub.blob.core.windows.net/iso/ubuntu_16.04.tar.gz
 
 $ wget -O megam.img.tar.gz https://s3-ap-southeast-1.amazonaws.com/megampub/iso/megam.tar.gz
 
 $ wget -O fedora_24.img.tar.gz https://s3-ap-southeast-1.amazonaws.com/megampub/iso/fedora.tar.gz
 
-$ wget -O debian_8.5.img.tar.gz https://s3-ap-southeast-1.amazonaws.com/megampub/iso/debian.tar.gz
+$ wget -O debian_8.5.img.tar.gz https://virtenginepub.blob.core.windows.net/iso/debian.tar.gz
 
-$ wget -O centos_7.1.img.tar.gz https://s3-ap-southeast-1.amazonaws.com/megampub/iso/centos.tar.gz
+$ wget -O centos_7.1.img.tar.gz https://virtenginepub.blob.core.windows.net/iso/centos.tar.gz
 
-$ wget -O coreos_latest.img.tar.gz https://s3-ap-southeast-1.amazonaws.com/megampub/iso/coreos_latest.tar.gz
+$ wget -O coreos_latest.img.tar.gz https://virtenginepub.blob.core.windows.net/iso/coreos_latest.tar.gz
 
-$ wget -O dockermachine_1.12.1.img.tar.gz https://s3-ap-southeast-1.amazonaws.com/megampub/iso/dockermachine.tar.gz
+$ wget -O dockermachine_1.12.1.img.tar.gz https://virtenginepub.blob.core.windows.net/iso/dockermachine.tar.gz
 
 
 $ tar -zxvf ubuntu_14.04.img.tar.gz ubuntu_14.04.img
@@ -65,5 +65,5 @@ $ tar -zxvf dockermachine.1.12.1.img.tar.gz dockermachine_1.12.1.img
 
 ~~~
 
-Next, install MegamVertice to deploy virtual machines using OpenNebula [here](/installation/vertice/).
+Next, install VirtEngine to deploy virtual machines using OpenNebula [here](/installation/vertice/).
 {: .info}

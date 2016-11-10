@@ -21,11 +21,11 @@ from a domain registrar (e.g.  [iwantmyname](https://iwantmyname.com/))
 Configuration instructions are shown after adding a domain. There are two choices:
 
 * Route53 DNS (recommended)
-* MegamVertice DNS (coming soon)
+* VirtEngine DNS (coming soon)
 
 ### Route53 DNS
 
-To configure your domain with *MegamVertice*:
+To configure your domain with *VirtEngine*:
 
 1. Ensure you are using *Route53 DNS*, otherwise [click here](https://aws.amazon.com/route53/)
 2. Go to your domain registrar's *DNS Server Settings* or *Nameservers*

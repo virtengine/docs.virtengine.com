@@ -10,7 +10,7 @@ In order to faciliate to use our products the following informations are useful:
 
 1. When you are using a single server for effecting all operations the  default configuration suffices.
 
-2. When you are in a position to use separate servers to run MegamVertice or encounter failures while running, the following configurations are to be changed.
+2. When you are in a position to use separate servers to run VirtEngine or encounter failures while running, the following configurations are to be changed.
 
 The following are the main components which are to be changed:
 
@@ -90,8 +90,8 @@ nsq.topic.containers="containers"
 # send messages to NSQ.
 nsq.events.muted = false
 
-# don't send events to NSQ if the email id is tour@megam.io
-nsq.events.muted_emails = ["tour@megam.io"]
+# don't send events to NSQ if the email id is tour@virtengine.com
+nsq.events.muted_emails = ["tour@virtengine.com"]
 
 ~~~
 

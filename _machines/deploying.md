@@ -3,13 +3,13 @@ title: Deploying
 order: 1
 ---
 
-The **MegamVertice Console (UI - Nilavu)** is the main way to launch and manage virtual machines. A command line facility will be issued in our future launch.
+The **VirtEngine Console (UI - Nilavu)** is the main way to launch and manage virtual machines. A command line facility will be issued in our future launch.
 
 ---
 
 ### Getting Started
 
-Enter MegamVertice Console (UI - nilavu) by typing [https://localhost](https://localhost) in the browser.
+Enter VirtEngine Console (UI - nilavu) by typing [https://localhost](https://localhost) in the browser.
 
 Replace *localhost* with *your ip*
 

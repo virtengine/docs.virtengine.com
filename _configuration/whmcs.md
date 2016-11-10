@@ -6,7 +6,7 @@ requirements:
   plan: enterprise
 ---
 
-MegamVertice  provides hooks/triggers from WHMCS to notify on invoice, order or payment updates.
+VirtEngine  provides hooks/triggers from WHMCS to notify on invoice, order or payment updates.
 
 ---
 

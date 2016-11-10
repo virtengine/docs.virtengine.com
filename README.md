@@ -1,6 +1,6 @@
-# docs.megam.io
+# docs.virtengine.com
 
-MegamVertice - Private opensource + Private enterprise documentation.
+VirtEngine - Private opensource + Private enterprise documentation.
 
 ## Ruby  
 You need ruby 2.3.x
@@ -9,9 +9,9 @@ You need ruby 2.3.x
 
 ```
 
-git clone https://github.com/<your_github_id>/docs.megam.io
+git clone https://github.com/<your_github_id>/docs.virtengine.com
 
-cd docs.megam.io
+cd docs.virtengine.com
 
 bundle install
 

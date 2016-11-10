@@ -3,7 +3,7 @@ title: System Requirements
 order: 1
 ---
 
-In order to get the most out of a MegamVertice, we recommend you to create a plan with the following features:
+In order to get the most out of a VirtEngine, we recommend you to create a plan with the following features:
   * Performance
   * Scalability
   * High availability
@@ -44,7 +44,7 @@ The compute/storage is scalable which means that  you can keep adding on. The st
 
 The compute can be either VMs or Containers(OpenVZ/Docker).
 
-Master is the server where MegamVertice is installed to manage the `compute` and `storage`.
+Master is the server where VirtEngine is installed to manage the `compute` and `storage`.
 
 Slave is the fallback node for the Master.
 

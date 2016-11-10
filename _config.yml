@@ -1,14 +1,15 @@
-name: Vertice Documentation
+name: VirtEngine Documentation
 version: 1.5.1
-url: https://docs.megam.io
+url: https://docs.virtengine.com
 future: true
 timezone:  Asia/Kolkatta
 
 author:
-  name: Megam Humans
-  email: humans@megam.io
+  name: VirtEngine
+  email: hello@virtengine.com
 
 builds:
+  - virtengine
   - vertice
 
 plans:
