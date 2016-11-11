@@ -1,12 +1,36 @@
 name: VirtEngine Documentation
 version: 1.5.1
 url: https://docs.virtengine.com
-future: true
-timezone:  Asia/Kolkatta
+timezone:    Australia/Sydney	
+locale:      en_US
+future:      true
+highlighter: rouge
+markdown:    kramdown
 
 author:
   name: VirtEngine
   email: hello@virtengine.com
+
+# Owner/author information
+owner:
+  name:           VirtEngine by DET.io
+  site:           https://det.io
+  avatar:         images/avatar-cloud.png
+  bio:            "VirtEngine specializes in building Virtualization Software and powering Cloud Service Providers / Hosting Providers.."
+  email:          jonathan@det.io
+  # Twitter nick for use in Twitter cards and follow button.
+  twitter: VirtEngine # if no twitter in this config, the twitter follow button will be removed
+  # GitHub nick for use in follow button in author block.
+  github: VirtEngine
+
+# Social networking links used in author block underneath posts. Update and remove as you like.
+social:
+  - title: "github"
+    url: "https://github.com/VirtEngine"
+  - title: "linkedin"
+    url: "https://www.linkedin.com/company/7589532"
+  - title: "youtube"
+    url: "https://www.youtube.com/channel/UCT68VXnWJU17fgdOy1TQFaA"
 
 builds:
   - virtengine
@@ -15,6 +39,18 @@ builds:
 plans:
   - free
   - enterprise
+
+menu:
+  - title: 'Home'
+    url: 'https://virtengine.com'
+  - title: 'Fork'
+    url: 'https://github.com/DET-io/VirtEngine'
+  - title: 'Documentation'
+    url: 'https://docs.virtengine.com'
+  - title: 'Forums'
+    url: 'http://forums.virtengine.com'
+  - title: 'Blog'
+    url: 'http://blog.virtengine.com'
 
 collections:
   overview:
