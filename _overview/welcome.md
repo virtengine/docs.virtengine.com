@@ -4,18 +4,18 @@ order: 1
 permalink: /
 ---
 
-
-VirtEngine is an excellent turnkey Virtualization platform that enables businesses to build, run scale and manage virtual machines, apps, containers entirely in your own fault tolerant cloud.
-
-# Homepage
+### Homepage
 
 [VirtEngine - Powering Public & Private Clouds](http://virtengine.com)
 
-# What is VirtEngine?
 
-VirtEngine, is a Virtualization Platform that can be utilized to build private & public clouds. 
+## What is VirtEngine?
 
-## What is a cloud?
+VirtEngine is an excellent turnkey Virtualization platform that enables businesses to build, run scale and manage virtual machines, apps, containers entirely in your own fault tolerant cloud.
+
+VirtEngine supports both a public model (for hosting providers) & a private model (for internal use)
+
+### What is a cloud?
 
 A Cloud is a group of Phsyical Computing resources that provides flexibily to the users, users are able to launch Computing Power on demand.
 
@@ -84,6 +84,10 @@ VirtEngine provides management & orchestration of a small to large number of Vir
 ### Getting Started
 
 Getting your private platform as service is easy with VirtEngine:
+
+#### Installation Methods
+1. OpenSource, requires an existing OpenNebula installation - Limited to Private Cloud Community Edition
+2. Through our Onboard Cloud SaaS offering, which will launch everything automatically in your own servers. - Licensed and Includes all VirtEngine featuers
 
 1. At the outset, know the [System requirements](/gettingstarted/system_requirements/)
 2. Understand the prerequisities for your [installation](/installation/prequisites/)

@@ -36,7 +36,7 @@ $ wget -O ubuntu_16.04.img.tar.gz https://virtenginepub.blob.core.windows.net/is
 
 $ wget -O megam.img.tar.gz https://s3-ap-southeast-1.amazonaws.com/megampub/iso/megam.tar.gz
 
-$ wget -O fedora_24.img.tar.gz https://s3-ap-southeast-1.amazonaws.com/megampub/iso/fedora.tar.gz
+$ wget -O fedora_24.img.tar.gz https://virtenginepub.blob.core.windows.net/iso/fedora.tar.gz
 
 $ wget -O debian_8.5.img.tar.gz https://virtenginepub.blob.core.windows.net/iso/debian.tar.gz
 

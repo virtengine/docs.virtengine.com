@@ -34,7 +34,7 @@ social:
 
 builds:
   - virtengine
-  - VirtEngine
+  - vertice
 
 plans:
   - free
@@ -44,7 +44,7 @@ menu:
   - title: 'Home'
     url: 'https://virtengine.com'
   - title: 'Fork'
-    url: 'https://github.com/DET-io/VirtEngine'
+    url: 'https://github.com/VirtEngine'
   - title: 'Documentation'
     url: 'https://docs.virtengine.com'
   - title: 'Forums'
