@@ -12,7 +12,7 @@ At the start, install OpenJDK8 and cassandra for which the following are needed.
 | Operating System                        | Status                                                |
 |:-------------------------------------- :| :---------------------------------------------------- |
 | Ubuntu 14.04, 16.04, Debian 8.5         | Well tested                                           |
-| CentOS 7.2                              | *experimental*, [report issues](https://github.com/megamsys/gitpackager){: target="_blank"} |
+| CentOS 7.2                              | *experimental*, [report issues](https://github.com/virtengine/gitpackager){: target="_blank"} |
 
 
 ---

@@ -87,8 +87,8 @@ Getting your private platform as service is easy with VirtEngine:
 
 1. At the outset, know the [System requirements](/gettingstarted/system_requirements/)
 2. Understand the prerequisities for your [installation](/installation/prequisites/)
-3. [Install](/installation/vertice/)
-4. [Configure VirtEngine](/configuration/vertice)
+3. [Install](/installation/VirtEngine/)
+4. [Configure VirtEngine](/configuration/VirtEngine)
 5. Deploy a [Virtual Machine](/machines/deploying/) or [Application](/customapps/deploying)
 
 Follow the [Tour](/overview/tour/) to explore the available and forth coming features.

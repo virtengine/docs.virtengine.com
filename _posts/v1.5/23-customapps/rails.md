@@ -2,11 +2,11 @@
 title: "Ruby on Rails"
 excerpt: "Now, read further to get a clear walk through on how to deploy a Rails app"
 ---
-You will enter Megam Vertice [UI http://localhost:8080](doc:vertice_up)  through which you can launch apps, service and machines, monitor them seamlessly.
+You will enter Megam VirtEngine [UI http://localhost:8080](doc:VirtEngine_up)  through which you can launch apps, service and machines, monitor them seamlessly.
 
 ##1. Click Marketplaces on the top bar  or `NEW`
 
-Marketplace contains all the linux distros,  applications, services and microservices which megam vertice supports. 
+Marketplace contains all the linux distros,  applications, services and microservices which megam VirtEngine supports. 
 
 ##3. Click Rails icon (Ruby)
 

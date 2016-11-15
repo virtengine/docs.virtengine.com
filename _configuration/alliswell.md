@@ -2,7 +2,7 @@
 title: All is Well?
 order: 7
 requirements:
-  build: vertice
+  build: VirtEngine
   plan: free
 ---
 
@@ -16,7 +16,7 @@ Now that you have configured to your hearts content, its time to see if the `ind
 
 You'll see a cool UI.
 
-The log files are located in */var/log/verticenilavu/unicorn.log*
+The log files are located in */var/log/VirtEnginenilavu/unicorn.log*
 
 
 ### API - gateway
@@ -42,7 +42,7 @@ The log files are located in */var/log/verticenilavu/unicorn.log*
 }
 ~~~
 
-The log files are located in  */var/log/verticegateway/*
+The log files are located in  */var/log/VirtEnginegateway/*
 
 
 ### Omnischeduler
@@ -51,7 +51,7 @@ The log files are located in  */var/log/verticegateway/*
 
 You'll see a web page.
 
-The log files are located in */var/log/vertice*
+The log files are located in */var/log/VirtEngine*
 
 #### *optional* Cassandra
 

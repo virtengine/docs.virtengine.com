@@ -18,11 +18,11 @@ There are 2 ways to launch.
 
 If you don't have an id, then type these `Public repo url` in the text box.
 
-[https://github.com/verticeapps/php_wordpress](https://github.com/verticeapps/php_wordpress.git){: target="_blank"}
+[https://github.com/VirtEngineapps/php_wordpress](https://github.com/VirtEngineapps/php_wordpress.git){: target="_blank"}
 
-[https://github.com/verticeapps/php_fengoffice](https://github.com/verticeapps/php_fengoffice.git){: target="_blank"}
+[https://github.com/VirtEngineapps/php_fengoffice](https://github.com/VirtEngineapps/php_fengoffice.git){: target="_blank"}
 
-[https://github.com/verticeapps/php_webanalytics](https://github.com/verticeapps/php_webanalytics.git){: target="_blank"}
+[https://github.com/VirtEngineapps/php_webanalytics](https://github.com/VirtEngineapps/php_webanalytics.git){: target="_blank"}
 
 
 ### I have a Github id.
@@ -41,7 +41,7 @@ Now that you have chosen the git repo, [Go to step3 to launch](/customapps/deplo
 
 ### Make changes to your Php App code *optional*
 
-To make changes in the code [verticeapps/php_wordpress](https://github.com/verticeapps/php_wordpress.git){: target="_blank"} ensure that you have the build tools like **git**, **apache2** installed.
+To make changes in the code [VirtEngineapps/php_wordpress](https://github.com/VirtEngineapps/php_wordpress.git){: target="_blank"} ensure that you have the build tools like **git**, **apache2** installed.
 
 ```
  cd php_wordpress
@@ -56,9 +56,9 @@ Let us say we are done testing the changes and want to push the changes to Githu
 cd php_wordpress
 
 git push master
-Username for 'https://github.com': verticeuser
-Password for 'verticeuser@github.com':
-To https://github.com/verticeapps/php_wordpress
+Username for 'https://github.com': VirtEngineuser
+Password for 'VirtEngineuser@github.com':
+To https://github.com/VirtEngineapps/php_wordpress
 1d26d24..5cabacb  master -> master
 
 ```

@@ -1,8 +1,8 @@
 ---
-title: Vertice
+title: VirtEngine
 order: 1
 requirements:
-  build: vertice
+  build: VirtEngine
   plan: free
 ---
 
@@ -16,15 +16,15 @@ The following are the main components which are to be changed:
 
 - *Console (UI - Nilavu)*
 - *API - gateway*
-- *Omni scheduler - vertice*
+- *Omni scheduler - VirtEngine*
 
 ### Changing components
 
 The main options to change are in the following files:
 
 1. Change details for the UI               */var/lib/megam/nilavu.conf*
-2. Change details for the API              */var/lib/megam/verticegateway/gateway.conf*
-3. Change details for the Omni scheduler   */var/lib/megam/vertice/vertice.conf*
+2. Change details for the API              */var/lib/megam/VirtEnginegateway/gateway.conf*
+3. Change details for the Omni scheduler   */var/lib/megam/VirtEngine/VirtEngine.conf*
 
 Go to
 
@@ -57,7 +57,7 @@ vnc_server = ws://localhost:8000
 
 ~~~
 
-Configure */var/lib/megam/verticegateway/gateway.conf*
+Configure */var/lib/megam/VirtEnginegateway/gateway.conf*
 {: .info}
 
 
@@ -69,7 +69,7 @@ Configure */var/lib/megam/verticegateway/gateway.conf*
 # Cassandra
 # ~~~~~~~~~
 cassandra.host = "localhost"
-cassandra.keyspace = "vertice"
+cassandra.keyspace = "VirtEngine"
 # DON'T Change these
 cassandra.username = "vertadmin"
 cassandra.password = "vertadmin"
@@ -95,23 +95,23 @@ nsq.events.muted_emails = ["tour@virtengine.com"]
 
 ~~~
 
-Configure */var/lib/megam/vertice/vertice.conf*
+Configure */var/lib/megam/VirtEngine/VirtEngine.conf*
 {: .info}
 
 
 ~~~yaml
 
-### Welcome to the vertice configuration file.
+### Welcome to the VirtEngine configuration file.
 ###
 ### [meta]
 ###
-### Controls how vertice connects to scylla, nsq
+### Controls how VirtEngine connects to scylla, nsq
 
   [meta]
     api = "https://localhost:9000/v2"
     nsqd = ["localhost:4150"]
     scylla = ["localhost"]
-    scylla_keyspace = "vertice"
+    scylla_keyspace = "VirtEngine"
     scylla_username = "vertadmin"
     scylla_password = "vertadmin"
 

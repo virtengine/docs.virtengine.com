@@ -38,7 +38,7 @@ VirtEngine works directly with a curated set of bitnami apps stored in our datab
 
 {#![Launching App - Bitnami](/img/prepackaged/bitnami.gif){: srcset="/img/prepackaged/bitnami.gif 800w, /img/prepackaged/bitnami.gif 1600w"}#}
 
-A limited set of curated bitnami/vertice prepackaged apps is stored automatically (Please contact support if you need something added).
+A limited set of curated bitnami/VirtEngine prepackaged apps is stored automatically (Please contact support if you need something added).
 {: .warning}
 
 ---

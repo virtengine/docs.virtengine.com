@@ -3,9 +3,9 @@ title: Pre-requisites
 order: 1
 ---
 
-We assume that you have a working [OpenNebula](https://opennebula.org){: target="_blank"}. If not, we are here to bring you in our grooves by asking for help in our [forum](http://forums.virtengine.com){: target="_blank"}.
+We assume that you have a working [OpenNebula](https://opennebula.org){: target="_blank"}. If not, follow OpenNebula's documentation in order to set it up (It's not so complicated) [OpenNebula Docs](http://docs.opennebula.org/) if you run into any issues feel free to get in touch via our community  [forum](http://forums.virtengine.com){: target="_blank"}.
 
-You can setup OpenNebula backed by [ceph](http://ceph.com){: target="_blank"} or [lvm](https://wiki.ubuntu.com/Lvm){: target="_blank"} to store images.
+You can setup OpenNebula's Storage through [ceph](http://ceph.com){: target="_blank"} or [lvm](https://wiki.ubuntu.com/Lvm){: target="_blank"} to store the Images & VM's.
 {: .info}
 
 ---
@@ -19,7 +19,7 @@ You can setup OpenNebula backed by [ceph](http://ceph.com){: target="_blank"} or
 
 The system gets booted by OpenNebula using the context `init.sh` for the purpose of setting up networking and agent inside the VM.
 
-Hence a context shell script in directory */vertice* should be created initially. For guidance please read  the documentation [provided here](https://github.com/megamsys/gitpackager/blob/master/support/README.md){: target="_blank"}.
+Hence a context shell script in directory */VirtEngine* should be created initially. For guidance please read  the documentation [provided here](https://github.com/megamsys/gitpackager/blob/master/support/README.md){: target="_blank"}.
 
 
 ## Import Images in OpenNebula
@@ -65,5 +65,5 @@ $ tar -zxvf dockermachine.1.12.1.img.tar.gz dockermachine_1.12.1.img
 
 ~~~
 
-Next, install VirtEngine to deploy virtual machines using OpenNebula [here](/installation/vertice/).
+Next, install VirtEngine to deploy virtual machines using OpenNebula [here](/installation/VirtEngine/).
 {: .info}

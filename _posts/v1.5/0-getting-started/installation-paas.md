@@ -60,14 +60,14 @@ Before we begin, lets install OpenJDK8 and cassandra.
 [CentOS](http://docs.datastax.com/en/cassandra/3.x/cassandra/install/installRHEL.html)
 [All Linux using tarball](http://docs.datastax.com/en/cassandra/3.x/cassandra/install/installTarball.html)
 
-###Install PaaS - Vertice
+###Install PaaS - VirtEngine
 
 ##Ubuntu 14.04
 [block:code]
 {
   "codes": [
     {
-      "code": "sudo apt-add-repository \"deb [arch=amd64] http://get.virtengine.com/repo/1.5/ubuntu/14.04/stable trusty stable\"\n\n\nsudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 9B46B611\n\nsudo apt-get update\n\nsudo apt-get install verticenilavu verticegateway verticensq vertice verticevnc",
+      "code": "sudo apt-add-repository \"deb [arch=amd64] http://get.virtengine.com/repo/1.5/ubuntu/14.04/stable trusty stable\"\n\n\nsudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 9B46B611\n\nsudo apt-get update\n\nsudo apt-get install VirtEnginenilavu VirtEnginegateway VirtEnginensq VirtEngine VirtEnginevnc",
       "language": "shell",
       "name": "Ubuntu"
     }
@@ -81,7 +81,7 @@ Use the jessie packages for Ubuntu 16.04
 {
   "codes": [
     {
-      "code": "sudo apt-add-repository \"deb [arch=amd64] http://get.virtengine.com/repo/1.5/debian/8.5/testing jessie testing\"\n\nsudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 9B46B611\n\nsudo apt-get update\n\nsudo apt-get install verticenilavu verticegateway verticensq vertice verticevnc",
+      "code": "sudo apt-add-repository \"deb [arch=amd64] http://get.virtengine.com/repo/1.5/debian/8.5/testing jessie testing\"\n\nsudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 9B46B611\n\nsudo apt-get update\n\nsudo apt-get install VirtEnginenilavu VirtEnginegateway VirtEnginensq VirtEngine VirtEnginevnc",
       "language": "shell",
       "name": "Jessie/xenial"
     }
@@ -93,7 +93,7 @@ Use the jessie packages for Ubuntu 16.04
 {
   "codes": [
     {
-      "code": "sudo yum update\n\nsudo yum install verticenilavu verticegateway verticensq vertice verticevnc",
+      "code": "sudo yum update\n\nsudo yum install VirtEnginenilavu VirtEnginegateway VirtEnginensq VirtEngine VirtEnginevnc",
       "language": "shell"
     }
   ]

@@ -2,7 +2,7 @@
 title: Custom Domains
 order: 1
 requirements:
-  build: vertice
+  build: VirtEngine
   plan: free  
 ---
 
@@ -42,7 +42,7 @@ $ cd /var/lib/megam
 
 ```
 
-Configure */var/lib/megam/verticegateway/gateway.conf*
+Configure */var/lib/megam/VirtEnginegateway/gateway.conf*
 {: .info}
 
 
@@ -55,9 +55,9 @@ domain = "megambox.com"
 
 ~~~
 
-### Configure Omni scheduler - vertice
+### Configure Omni scheduler - VirtEngine
 
-Configure */var/lib/megam/vertice/vertice.conf*
+Configure */var/lib/megam/VirtEngine/VirtEngine.conf*
 {: .info}
 
 
@@ -77,4 +77,4 @@ Configure */var/lib/megam/vertice/vertice.conf*
 
 ~~~
 
-Restart `verticegateway` and `vertice`.
+Restart `VirtEnginegateway` and `VirtEngine`.

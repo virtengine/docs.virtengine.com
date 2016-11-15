@@ -33,13 +33,13 @@ Yeah, you got it, `Go VirtEngine`.
 * Host it in your own backyard.
 
 
-#PaaS - Vertice
+#PaaS - VirtEngine
 
 An open source PaaS with packages for all the distros. 
 
 ** Wee have a SaaS offering, if you are hungry**
 
-*Vertice* is our application orchestrator that helps you to manage and orchestrate apps services, containers in your own cloud.
+*VirtEngine* is our application orchestrator that helps you to manage and orchestrate apps services, containers in your own cloud.
 
 #Datacenter Automation
 

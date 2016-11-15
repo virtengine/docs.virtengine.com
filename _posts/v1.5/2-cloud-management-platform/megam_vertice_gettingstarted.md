@@ -1,6 +1,6 @@
 ---
 title: "Getting started"
-excerpt: "Below, you'll find all the information you need to get going with Megam Vertice"
+excerpt: "Below, you'll find all the information you need to get going with Megam VirtEngine"
 ---
 [block:image]
 {
@@ -11,7 +11,7 @@ excerpt: "Below, you'll find all the information you need to get going with Mega
   ]
 }
 [/block]
-Megam Vertice is an open source application orchestrator that launches apps in cloud. You've reached our documentation — where you learn how to use Vertice with your web application.
+Megam VirtEngine is an open source application orchestrator that launches apps in cloud. You've reached our documentation — where you learn how to use VirtEngine with your web application.
 
 If you have any feedback on this page, please don't hesitate to click "Suggest Edits" in the top right of this page, tweet at us [@megamsys](http://twitter.com/megamsys), or email us at [support@virtengine.com](mailto:support@virtengine.com).
 
@@ -20,7 +20,7 @@ Best of all, take as much time as you like, because it’s all free. (Oh, and yo
 
 [block:html]
 {
-  "html": "<div></div>\n<a class=\"megam-button\" href=\"http://docs.virtengine.com/docs/megam_vertice_install\" role=\"button\" target=\"_blank\">Go to installing vertice</a><style></style>"
+  "html": "<div></div>\n<a class=\"megam-button\" href=\"http://docs.virtengine.com/docs/megam_VirtEngine_install\" role=\"button\" target=\"_blank\">Go to installing VirtEngine</a><style></style>"
 }
 [/block]
 
@@ -28,7 +28,7 @@ Best of all, take as much time as you like, because it’s all free. (Oh, and yo
 {
   "data": {
     "h-0": "Quick tutorial",
-    "0-0": "Have you implemented a cloud application before (like Bluemix or Heroku)? Confident in your full stack skills? Implement an application in Megam Vertice in less than 30 minutes\n[Learn now](doc:megam_quickly_torpedo)",
+    "0-0": "Have you implemented a cloud application before (like Bluemix or Heroku)? Confident in your full stack skills? Implement an application in Megam VirtEngine in less than 30 minutes\n[Learn now](doc:megam_quickly_torpedo)",
     "0-1": "Want an in-depth installation guide with inline code samples for Ruby on Rails, Playframework (Scala), Nodejs and Java ? Give the extended tutorial a try.\n\n[Get started](doc:megam_oja_install)",
     "h-1": "Cool! Lets poke in"
   },
@@ -39,7 +39,7 @@ Best of all, take as much time as you like, because it’s all free. (Oh, and yo
 
 ## Terminology 
 
-The verbose you need to be familiar with when reading this documentation for **Megam Vertice** are detailed below. 
+The verbose you need to be familiar with when reading this documentation for **Megam VirtEngine** are detailed below. 
 
 #<b>Machine</b>
 
@@ -51,7 +51,7 @@ A machine is a VPS (Virtual machine) with built in logs, monitoring.
 [/block]
 #<b>Containers -  Docker</b>
 
-We've written containers - docker  guide for a variety of different services, apps available in  [Docker Hub](hub.docker.com)  which can be launched in open source Vertice. 
+We've written containers - docker  guide for a variety of different services, apps available in  [Docker Hub](hub.docker.com)  which can be launched in open source VirtEngine. 
 [block:parameters]
 {
   "data": {
@@ -65,7 +65,7 @@ We've written containers - docker  guide for a variety of different services, ap
 }
 [/block]
 
-This guide will walk you through in launching an image in [Docker Hub](hub.docker.com) or private docker hub registry in Megam Vertice.
+This guide will walk you through in launching an image in [Docker Hub](hub.docker.com) or private docker hub registry in Megam VirtEngine.
 [block:html]
 {
   "html": "<div></div>\n<a class=\"megam-button\" href=\"megam_docker_app\" role=\"button\">Go to launch a container - docker NOW!</a><style></style>"
@@ -74,7 +74,7 @@ This guide will walk you through in launching an image in [Docker Hub](hub.docke
 
 #<b>Apps</b>
 
-We've written language and framework guides for a variety of different platforms: Java, Rails, Node.js This guide will walk you through launching your app in Megam Vertice
+We've written language and framework guides for a variety of different platforms: Java, Rails, Node.js This guide will walk you through launching your app in Megam VirtEngine
 [block:html]
 {
   "html": "<div></div>\n<a class=\"megam-button blue\" href=\"megam_app_java\" role=\"button\">Go to launch an app NOW!</a>\n<style>\n\n</style>"
@@ -82,7 +82,7 @@ We've written language and framework guides for a variety of different platforms
 [/block]
 #<b>Services</b>
 
-We've written guides for a variety of different services: Analytics (Hadoop/Spark), PostgreSQL, Redis, Riak. These guides will walk you through integrating your launched app with a service in Megam Vertice.
+We've written guides for a variety of different services: Analytics (Hadoop/Spark), PostgreSQL, Redis, Riak. These guides will walk you through integrating your launched app with a service in Megam VirtEngine.
 [block:html]
 {
   "html": "<div></div>\n<a class=\"megam-button\" href=\"postgresql\" role=\"button\">Go to launch a service NOW!</a><style></style>"

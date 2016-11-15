@@ -2,7 +2,7 @@
 title: Regions
 order: 3
 requirements:
-  build: vertice
+  build: VirtEngine
   plan: free
 ---
 

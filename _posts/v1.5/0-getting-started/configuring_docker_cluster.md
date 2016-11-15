@@ -84,6 +84,6 @@ Paste the token and execute the below command on the master to join node to mast
   ]
 }
 [/block]
-See [vertice configuration](doc:vertice_configuration)  to enable support for container launches.
+See [VirtEngine configuration](doc:VirtEngine_configuration)  to enable support for container launches.
 
-Voila! Go ahead and launch multiple docker containers through megam vertice.
+Voila! Go ahead and launch multiple docker containers through megam VirtEngine.

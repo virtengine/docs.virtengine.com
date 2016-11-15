@@ -1,5 +1,5 @@
 ---
-title: Vertice
+title: VirtEngine
 order: 1
 ---
 
@@ -174,7 +174,7 @@ $ service cassandra restart
 
   sudo apt-get update
 
-  sudo apt-get install verticenilavu verticegateway verticensqd vertice verticevnc
+  sudo apt-get install VirtEnginenilavu VirtEnginegateway VirtEnginensqd VirtEngine VirtEnginevnc
 
 ~~~
 
@@ -188,11 +188,11 @@ To start VirtEngine then
 
   sudo start nsqlookupd
 
-  sudo start  verticegateway
+  sudo start  VirtEnginegateway
 
-  sudo start  verticevnc
+  sudo start  VirtEnginevnc
 
-  sudo start  vertice
+  sudo start  VirtEngine
 
   sudo sv start nginx
 
@@ -210,11 +210,11 @@ To stop VirtEngine then
 
   sudo stop nsqlookupd
 
-  sudo stop  verticegateway
+  sudo stop  VirtEnginegateway
 
-  sudo stop  verticevnc
+  sudo stop  VirtEnginevnc
 
-  sudo stop  vertice
+  sudo stop  VirtEngine
 
   sudo sv stop nginx
 
@@ -232,7 +232,7 @@ To stop VirtEngine then
 
   sudo apt-get update
 
-  sudo apt-get install verticenilavu verticegateway verticensqd vertice verticevnc
+  sudo apt-get install VirtEnginenilavu VirtEnginegateway VirtEnginensqd VirtEngine VirtEnginevnc
 
 ~~~
 
@@ -246,11 +246,11 @@ To start VirtEngine
 
   sudo systemctl start nsqlookupd
 
-  sudo systemctl start  verticegateway
+  sudo systemctl start  VirtEnginegateway
 
-  sudo systemctl start  verticevnc
+  sudo systemctl start  VirtEnginevnc
 
-  sudo systemctl start vertice
+  sudo systemctl start VirtEngine
 
   sudo sv start nginx
 
@@ -268,11 +268,11 @@ To stop VirtEngine
 
   sudo systemctl stop  nsqlookupd
 
-  sudo systemctl stop  verticegateway
+  sudo systemctl stop  VirtEnginegateway
 
-  sudo systemctl stop  verticevnc
+  sudo systemctl stop  VirtEnginevnc
 
-  sudo systemctl stop  vertice
+  sudo systemctl stop  VirtEngine
 
   sudo sv stop nginx
 
@@ -287,7 +287,7 @@ To stop VirtEngine
 
   sudo yum update
 
-  sudo yum install verticenilavu verticegateway verticensqd vertice verticevnc
+  sudo yum install VirtEnginenilavu VirtEnginegateway VirtEnginensqd VirtEngine VirtEnginevnc
 
 ~~~
 
@@ -301,11 +301,11 @@ To start VirtEngine
 
   sudo systemctl start nsqlookupd
 
-  sudo systemctl start  verticegateway
+  sudo systemctl start  VirtEnginegateway
 
-  sudo systemctl start  verticevnc
+  sudo systemctl start  VirtEnginevnc
 
-  sudo systemctl start vertice
+  sudo systemctl start VirtEngine
 
   sudo sv start nginx
 
@@ -323,11 +323,11 @@ To stop VirtEngine
 
   sudo systemctl stop  nsqlookupd
 
-  sudo systemctl stop  verticegateway
+  sudo systemctl stop  VirtEnginegateway
 
-  sudo systemctl stop  verticevnc
+  sudo systemctl stop  VirtEnginevnc
 
-  sudo systemctl stop  vertice
+  sudo systemctl stop  VirtEngine
 
   sudo sv stop nginx
 

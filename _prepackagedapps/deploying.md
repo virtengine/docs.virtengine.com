@@ -22,10 +22,10 @@ We support multiple providers who can provided curated prepackaged apps for the 
 
 The following provers are supported now.
 
-- Vertice
+- VirtEngine
 - Bitnami
 
-Prepackaged apps might overlap, which mean both `Vertice  & Bitnami` may have `WordPress`.
+Prepackaged apps might overlap, which mean both `VirtEngine  & Bitnami` may have `WordPress`.
 
 ### Watch this animation
 

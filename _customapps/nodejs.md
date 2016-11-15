@@ -18,11 +18,11 @@ There are 2 ways to launch.
 
 If you don't have an id, then type these `Public repo url` in the text box.
 
-[https://github.com/verticeapps/node_etherpad](https://github.com/verticeapps/node_etherpad.git){: target="_blank"}
+[https://github.com/VirtEngineapps/node_etherpad](https://github.com/VirtEngineapps/node_etherpad.git){: target="_blank"}
 
-[https://github.com/verticeapps/travis-web](https://github.com/verticeapps/travis-web.git){: target="_blank"}
+[https://github.com/VirtEngineapps/travis-web](https://github.com/VirtEngineapps/travis-web.git){: target="_blank"}
 
-[https://github.com/verticeapps/ghost](https://github.com/verticeapps/ghost.git){: target="_blank"}
+[https://github.com/VirtEngineapps/ghost](https://github.com/VirtEngineapps/ghost.git){: target="_blank"}
 
 
 ### I have a Github id.
@@ -52,7 +52,7 @@ Now that you have chosen the git repo, [Go to step3 to launch](/customapps/deplo
 
 ### Working with Node App code *optional*
 
-To make changes in the code [verticeapps/etherpad-lite](https://github.com/verticeapps/etherpad-lite.git){: target="_blank"} ensure that you have the build tools like **git**, **npm**, and **node** installed.
+To make changes in the code [VirtEngineapps/etherpad-lite](https://github.com/VirtEngineapps/etherpad-lite.git){: target="_blank"} ensure that you have the build tools like **git**, **npm**, and **node** installed.
 
 ```
 
@@ -72,9 +72,9 @@ Once you are done testing the changes, push the changes to Github.
 cd etherpad-lite
 
 git push master
-Username for 'https://github.com': verticeuser
-Password for 'verticeuser@github.com':
-To https://github.com/verticeapps/etherpad-lite.git
+Username for 'https://github.com': VirtEngineuser
+Password for 'VirtEngineuser@github.com':
+To https://github.com/VirtEngineapps/etherpad-lite.git
 1d26d24..5cabacb  master -> master
 
 ```

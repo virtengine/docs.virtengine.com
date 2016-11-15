@@ -2,7 +2,7 @@
 title: WHMCS
 order: 6
 requirements:
-  build: vertice
+  build: VirtEngine
   plan: enterprise
 ---
 

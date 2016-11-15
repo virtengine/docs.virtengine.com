@@ -19,11 +19,11 @@ There are 2 ways to launch.
 
 If you don't have an id, then type these `Public repo url` in the text box.
 
-[https://github.com/verticeapps/java_jenkins.git](https:/github.com/verticeapps/java_jenkins.git){: target="_blank"}
+[https://github.com/VirtEngineapps/java_jenkins.git](https:/github.com/VirtEngineapps/java_jenkins.git){: target="_blank"}
 
-[https://github.com/verticeapps/java_springwebflow.git](https://github.com/verticeapps/java_springwebflow.git){: target="_blank"}
+[https://github.com/VirtEngineapps/java_springwebflow.git](https://github.com/VirtEngineapps/java_springwebflow.git){: target="_blank"}
 
-[https://github.com/verticeapps/java_openmrs.git](https://github.com/verticeapps/java_openmrs.git){: target="_blank"}
+[https://github.com/VirtEngineapps/java_openmrs.git](https://github.com/VirtEngineapps/java_openmrs.git){: target="_blank"}
 
 
 ### I have a Github id.
@@ -42,7 +42,7 @@ Now that you have chosen the git repo, [Go to step3 to launch](/customapps/deplo
 
 ### Working with Java App code *optional*
 
-To make changes in the code [verticeapps/java_springwebflow](https://github.com/verticeapps/java_springwebflow.git){: target="_blank"} ensure that
+To make changes in the code [VirtEngineapps/java_springwebflow](https://github.com/VirtEngineapps/java_springwebflow.git){: target="_blank"} ensure that
 you have the build tools like **git**, **maven**, or **gradle** installed.
 
 ```
@@ -61,9 +61,9 @@ Once you are done testing the changes, push the changes to Github.
 cd java_springwebflow
 
 git push master
-Username for 'https://github.com': verticeuser
-Password for 'https://verticeuser@github.com':
-To https://github.com/verticeapps/java_springwebflow
+Username for 'https://github.com': VirtEngineuser
+Password for 'https://VirtEngineuser@github.com':
+To https://github.com/VirtEngineapps/java_springwebflow
 1d26d24..5cabacb  master -> master
 
 ```

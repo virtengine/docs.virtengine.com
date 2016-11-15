@@ -22,7 +22,7 @@ $ cd /var/lib/megam
 
 ```
 
-Lets configure */var/lib/megam/vertice/vertice.conf*
+Lets configure */var/lib/megam/VirtEngine/VirtEngine.conf*
 {: .info}
 
 ~~~yaml

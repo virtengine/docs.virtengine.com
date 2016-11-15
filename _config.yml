@@ -34,7 +34,7 @@ social:
 
 builds:
   - virtengine
-  - vertice
+  - VirtEngine
 
 plans:
   - free

@@ -11,7 +11,7 @@ VirtEngine  provides hooks/triggers which gets invoked when state changes in Ope
 
 This is needed to suspend or terminate the virtual machine by the administrator due to insufficient funds or deleted upon termination of the contract.
 
-Configure the trigger *hook_vertice.rb* [here](https://github.com/VirtEngine/gitpackager/blob/master/support/README.md){: target="_blank"}.
+Configure the trigger *hook_VirtEngine.rb* [here](https://github.com/VirtEngine/gitpackager/blob/master/support/README.md){: target="_blank"}.
 {: .info}
 
 ---

@@ -2,7 +2,7 @@
 title: IaaS
 order: 2
 requirements:
-  build: vertice
+  build: VirtEngine
   plan: free
 ---
 
@@ -22,7 +22,7 @@ $ cd /var/lib/megam
 
 ```
 
-Configure */var/lib/megam/vertice/vertice.conf*
+Configure */var/lib/megam/VirtEngine/VirtEngine.conf*
 {: .info}
 
 ~~~yaml

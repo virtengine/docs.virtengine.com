@@ -1,4 +1,4 @@
 ---
 title: "UP"
-excerpt: "Is your open source PaaS Vertice up ?"
+excerpt: "Is your open source PaaS VirtEngine up ?"
 ---

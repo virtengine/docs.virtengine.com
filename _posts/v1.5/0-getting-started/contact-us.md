@@ -3,7 +3,7 @@ title: "Contact us"
 excerpt: "Want to get in touch?"
 ---
 ##Support
-We hang around in our  [![Gitter](https://badges.gitter.im/megamsys/vertice.svg)](https://gitter.im/megamsys/vertice?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+We hang around in our  [![Gitter](https://badges.gitter.im/megamsys/VirtEngine.svg)](https://gitter.im/megamsys/VirtEngine?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 Shoot us an email [hello@virtengine.com](mailto:hello@virtengine.com) and we'll have a support engineer get back to you in 24 hrs.
 
 ##Social
