@@ -1,6 +1,6 @@
 ---
 title: Features
-order: 4
+order: 3
 permalink: /features
 ---
 
@@ -30,8 +30,8 @@ For additional redundancy, you can also setup double copy - meaning that two cop
 |                         | Storage          | Network                                                                                                                                                                                                                                                  | Description                                                                                                                                                                                                                                                        |  |
 | ----------------------- | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |  |
 | Compute Node #1 (CN1)   | 1xHDD (or) 1xSSD | 1GBps Private Network                                                                                                                                                                                                                                    | All the drives are usable by Virtual Machines, a copy is stored in SN1 for disasters.                                                                                                                                                                              |  |
-| Storage Node #1 (SN1)   | 2xHDD (or) 2xSSD | 10GBps Private Network - Since multiple Compute Server nodes will be uploading their data to this SS1.                                                                                                                                                   | This storage server will store as much copies as it can from multiple Compute Server nodes. <br>Multiple Storage Servers can be added to form a cluster. <br>Compute Server nodes with storage enabled will also join the cluster.                                 |  |
-| Failover Node #1        | 1xHDD (or) 1xSSD | 1GBps Private Network                                                                                                                                                                                                                                    | This server is on stand by, if CS1 fails - then it will grab the backups directly from SS1 and reboot all the virtual machines automatically.                                                                                                                      |  |
+| Storage Node #1 (SN1)   | 2xHDD (or) 2xSSD | 10GBps Private Network - Since multiple Compute Server nodes will be uploading their data to this SN1.                                                                                                                                                   | This storage server will store as much copies as it can from multiple Compute Server nodes. <br>Multiple Storage Servers can be added to form a cluster. <br>Compute Server nodes with storage enabled will also join the cluster.                                 |  |
+| Failover Node #1        | 1xHDD (or) 1xSSD | 1GBps Private Network                                                                                                                                                                                                                                    | This server is on stand by, if CS1 fails - then it will grab the backups directly from SN1 and reboot all the virtual machines automatically.                                                                                                                      |  |
 
 ## Storage
 ### Object Storage
@@ -80,23 +80,24 @@ VirtEngine supports the ability to launch & scale the following in a few clicks:
 
 Docker containers are awesome, but you don't see Infrastructure-as-a-Service providers offering them, we're changing that - your users can easily launch from 100's of thousands of docker images in 3 easy steps, search - select - click.
 
-###Hyperscaling Applications
-####Coming Soon
+### Hyperscaling Applications
+
+#### Coming Soon
 
 Applications launched through our PaaS system, support hyperscaling. Virtual Machines can be added to serve your application with a click, automatically load balanced and configuired through our system. Since our PaaS system knows exactly
 how to deploy the application - it can clone the main server, deploy the application, add it to the load balancer all automatically.
 
 This also works with services attached to the application, such as databases. When multiple databases are necessary, they are automatically clustered. 
 
-####Multi-GEO scaling
+#### Multi-GEO scaling
 
 If you support multiple locations, your users can now achieve absolute redundancy by deploying a copy of the server over multiple locations. Thus, even if one of your locations have had a fatal disruption - the application is still reachable
 through loadbalancing. Even load balancers can be setup this way so that even if one of the load balancers are disrupted, another takes over.
 
 Now a CDN network to serve applications is possible with ease thanks to VirtEngine's innovative features.
 
-##Ease of Deployment
-###Automation
+## Ease of Deployment
+### Automation
 
 Hosting providers, especially reasonable sized ones - have a lot of hardware. Launching a cloud with tons of hardware can get complicated quickly, let alone managing and scaling it. 
 

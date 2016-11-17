@@ -39,6 +39,9 @@ builds:
 plans:
   - free
   - enterprise
+  - public
+  - minified
+  - complete
 
 menu:
   - title: 'Home'

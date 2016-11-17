@@ -1,6 +1,7 @@
 ---
 title: Pricing
 order: 4
+permalink: /pricing
 ---
 
 ### Public Cloud Editions (Licensed)

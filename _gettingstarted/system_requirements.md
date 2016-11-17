@@ -98,9 +98,9 @@ Minimal Setup:
 |                      | CPU (Cores)   | RAM (GB)     | HDD                                |
 | -------------------- | ------------- | ------------ | ---------------------------------- |
 | Master (VM)          | 2/4           | 4-8GB        | 1xHDD (160GB) (or) 1xSSD (160GB)   |
-| Slave (VM)           | 2/4           | 4-8GB        | 1xHDD (160GB) (or) 1xSSD (160GB)   |
+| Slave (VM) (Optional ^1)           | 2/4           | 4-8GB        | 1xHDD (160GB) (or) 1xSSD (160GB)   |
 | Compute/Storage Node | > 8/16        | > 16GB       | > 1xHDD (500GB) (or) 1xSSD (240GB) |
-| Failover Node        | > 4/8         | > 16GB       | > 1xHDD (500GB) (or) 1xSSD (240GB) |
+| Failover Node (Optional ^2)        | > 4/8         | > 16GB       | > 1xHDD (500GB) (or) 1xSSD (240GB) |
 
 Recommended Setup: 
 
@@ -110,6 +110,9 @@ Recommended Setup:
 | Slave (VM)           | 8             | 16-32GB      | 1xSSD (240GB)                      |
 | Compute/Storage Node | > 8/16        | > 64GB       | > 3xHDD (2TB) (or) 3xSSD (750GB)     |
 | Failover Node        | > 8/16        | > 64GB       | > 2xHDD (2TB) (or) 2xSSD (750GB)     |
+
+^1: The purpose of a slave is to provide high availability for the VirtEngine UI & Software.
+^2: The purpose of a failover node is to provide high availability to client VM's, for high availability to work please view the above requirements.
 
 ### SAN Setup:
 
