@@ -18,11 +18,11 @@ Go to
 
 ```bash
 
-$ cd /var/lib/megam
+$ cd /var/lib/virtengine
 
 ```
 
-Configure */var/lib/megam/VirtEngine/VirtEngine.conf*
+Configure */var/lib/virtengine/VirtEngine/VirtEngine.conf*
 {: .info}
 
 ~~~yaml

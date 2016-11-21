@@ -38,11 +38,11 @@ Go to
 
 ```bash
 
-$ cd /var/lib/megam
+$ cd /var/lib/virtengine
 
 ```
 
-Configure */var/lib/megam/VirtEnginegateway/gateway.conf*
+Configure */var/lib/virtengine/VirtEnginegateway/gateway.conf*
 {: .info}
 
 
@@ -57,7 +57,7 @@ domain = "megambox.com"
 
 ### Configure Omni scheduler - VirtEngine
 
-Configure */var/lib/megam/VirtEngine/VirtEngine.conf*
+Configure */var/lib/virtengine/VirtEngine/VirtEngine.conf*
 {: .info}
 
 

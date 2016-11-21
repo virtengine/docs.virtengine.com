@@ -181,7 +181,7 @@ $ service cassandra restart
 
 ~~~bash
 
-  sudo apt-add-repository "deb [arch=amd64] https://get.virtengine.com/repo/1.5/ubuntu/14.04/stable trusty stable"
+  sudo apt-add-repository "deb [arch=amd64] http://get.virtengine.com/repo/1.5/ubuntu/14.04/stable trusty stable"
 
   sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 9B46B611
 

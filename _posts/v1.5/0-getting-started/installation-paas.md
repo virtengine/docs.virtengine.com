@@ -101,7 +101,7 @@ Use the jessie packages for Ubuntu 16.04
 [/block]
 ##Docker Images
 
-Habitat (Docker images) are [coming thru](https://github.com/megamsys/habitat_plans).
+Habitat (Docker images) are [coming thru](https://github.comvirtenginesys/habitat_plans).
 [block:html]
 {
   "html": "<div></div>\n<a class=\"megam-button\" href=\"megam_megdc_tool\" role=\"button\">One step to finish, configuration</a>\n<style>\n\n</style>"

@@ -134,7 +134,7 @@ VirtEngine WHMCS Add-on Module excels in the functions of:
 
 - Storing the  information with the ability to refill the user’s balance automatically via VirtEngine dashboard.
 
-[VirtEngine WHMCS Add-on](https://github.com/megamsys/gitpackager){: target="_blank"} is inscribed in PHP.
+[VirtEngine WHMCS Add-on](https://github.comvirtenginesys/gitpackager){: target="_blank"} is inscribed in PHP.
 
 ---
 

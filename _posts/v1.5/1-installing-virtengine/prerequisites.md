@@ -19,7 +19,7 @@ You can setup OpenNebula backed by [ceph](http://ceph.com){: target="_blank"} or
 
 The system gets booted by OpenNebula using the context `init.sh` for the purpose of setting up networking and agent inside the VM.
 
-Hence a context shell script in directory */VirtEngine* should be created initially. For guidance please read  the documentation [provided here](https://github.com/megamsys/gitpackager/blob/master/support/README.md){: target="_blank"}.
+Hence a context shell script in directory */VirtEngine* should be created initially. For guidance please read  the documentation [provided here](https://github.comvirtenginesys/gitpackager/blob/master/support/README.md){: target="_blank"}.
 
 
 ## Import Images in OpenNebula
@@ -34,9 +34,9 @@ $ wget -O ubuntu_14.04.img.tar.gz https://virtenginepub.blob.core.windows.net/is
 
 $ wget -O ubuntu_16.04.img.tar.gz https://virtenginepub.blob.core.windows.net/iso/ubuntu_16.04.tar.gz
 
-$ wget -O megam.img.tar.gz https://s3-ap-southeast-1.amazonaws.com/megampub/iso/megam.tar.gz
+$ wget -O megam.img.tar.gz https://s3-ap-southeast-1.amazonaws.comvirtenginepub/isovirtengine.tar.gz
 
-$ wget -O fedora_24.img.tar.gz https://s3-ap-southeast-1.amazonaws.com/megampub/iso/fedora.tar.gz
+$ wget -O fedora_24.img.tar.gz https://s3-ap-southeast-1.amazonaws.comvirtenginepub/iso/fedora.tar.gz
 
 $ wget -O debian_8.5.img.tar.gz https://virtenginepub.blob.core.windows.net/iso/debian.tar.gz
 

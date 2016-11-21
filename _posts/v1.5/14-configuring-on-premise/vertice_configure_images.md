@@ -15,7 +15,7 @@ So lets create a context shell script in the directory '/VirtEngine`.  The scrip
 [block:embed]
 {
   "html": false,
-  "url": "https://github.com/megamsys/libmegdc/blob/master/init.sh",
+  "url": "https://github.comvirtenginesys/libmegdc/blob/master/init.sh",
   "title": "megamsys/libmegdc",
   "favicon": "https://assets-cdn.github.com/favicon.ico"
 }
@@ -25,7 +25,7 @@ So lets create a context shell script in the directory '/VirtEngine`.  The scrip
 {
   "codes": [
     {
-      "code": "mkdir /VirtEngine\n\ncd VirtEngine\n\nwget https://raw.githubusercontent.com/megamsys/libmegdc/master/init.sh\n\nls",
+      "code": "mkdir /VirtEngine\n\ncd VirtEngine\n\nwget https://raw.githubusercontent.comvirtenginesys/libmegdc/master/init.sh\n\nls",
       "language": "shell",
       "name": "/VirtEngine/init.sh"
     }
@@ -50,7 +50,7 @@ The namings should be *centos_7.1* as it appears **centos_7.1.img** sans *img*
 {
   "codes": [
     {
-      "code": "wget https://s3-ap-southeast-1.amazonaws.com/megampub/iso/ubuntu_14.04.img.tar.gz\n\nwget https://s3-ap-southeast-1.amazonaws.com/megampub/iso/ubuntu_16.04.img.tar.gz\n\nwget https://s3-ap-southeast-1.amazonaws.com/megampub/iso/centos_7.1.img.tar.gz\n\nwget https://s3-ap-southeast-1.amazonaws.com/megampub/iso/debian_8.0.img.tar.gz\n\nwget https://s3-ap-southeast-1.amazonaws.com/megampub/iso/megam.img.tar.gz\n\ntar -zxvf ubuntu_14.04.img.tar.gz ubuntu_14.04.img\n\ntar -zxvf ubuntu_16.04.img.tar.gz ubuntu_16.04.img\n\ntar -zxvf debian_8.0.img.tar.gz debian_8.0.img\n\ntar -zxvf centos_7.1.img.tar.gz centos_7.1.img\n\ntar -zxvf coreos.img.tar.gz coreos.img\n\ntar -zxvf megam.img.tar.gz megam.img",
+      "code": "wget https://s3-ap-southeast-1.amazonaws.comvirtenginepub/iso/ubuntu_14.04.img.tar.gz\n\nwget https://s3-ap-southeast-1.amazonaws.comvirtenginepub/iso/ubuntu_16.04.img.tar.gz\n\nwget https://s3-ap-southeast-1.amazonaws.comvirtenginepub/iso/centos_7.1.img.tar.gz\n\nwget https://s3-ap-southeast-1.amazonaws.comvirtenginepub/iso/debian_8.0.img.tar.gz\n\nwget https://s3-ap-southeast-1.amazonaws.comvirtenginepub/isovirtengine.img.tar.gz\n\ntar -zxvf ubuntu_14.04.img.tar.gz ubuntu_14.04.img\n\ntar -zxvf ubuntu_16.04.img.tar.gz ubuntu_16.04.img\n\ntar -zxvf debian_8.0.img.tar.gz debian_8.0.img\n\ntar -zxvf centos_7.1.img.tar.gz centos_7.1.img\n\ntar -zxvf coreos.img.tar.gz coreos.img\n\ntar -zxvf megam.img.tar.gz megam.img",
       "language": "shell",
       "name": "ubuntu_14.04"
     }

@@ -13,14 +13,14 @@ excerpt: "Below, you'll find all the information you need to get going with Mega
 [/block]
 Megam VirtEngine is an open source application orchestrator that launches apps in cloud. You've reached our documentation — where you learn how to use VirtEngine with your web application.
 
-If you have any feedback on this page, please don't hesitate to click "Suggest Edits" in the top right of this page, tweet at us [@megamsys](http://twitter.com/megamsys), or email us at [support@virtengine.com](mailto:support@virtengine.com).
+If you have any feedback on this page, please don't hesitate to click "Suggest Edits" in the top right of this page, tweet at us [@megamsys](http://twitter.comvirtenginesys), or email us at [support@virtengine.com](mailto:support@virtengine.com).
 
 Best of all, take as much time as you like, because it’s all free. (Oh, and you can show off your applications to your friends, or run applications for your own)
 
 
 [block:html]
 {
-  "html": "<div></div>\n<a class=\"megam-button\" href=\"http://docs.virtengine.com/docs/megam_VirtEngine_install\" role=\"button\" target=\"_blank\">Go to installing VirtEngine</a><style></style>"
+  "html": "<div></div>\n<a class=\"megam-button\" href=\"http://docs.virtengine.com/docsvirtengine_VirtEngine_install\" role=\"button\" target=\"_blank\">Go to installing VirtEngine</a><style></style>"
 }
 [/block]
 
