@@ -22,24 +22,24 @@ The following are the main components which are to be changed:
 
 The main options to change are in the following files:
 
-1. Change details for the UI               */var/lib/megam/nilavu.conf*
-2. Change details for the API              */var/lib/megam/VirtEnginegateway/gateway.conf*
-3. Change details for the Omni scheduler   */var/lib/megam/VirtEngine/VirtEngine.conf*
+1. Change details for the UI               */var/lib/detio/nilavu.conf*
+2. Change details for the API              */var/lib/detio/virtenginegateway/gateway.conf*
+3. Change details for the Omni scheduler   */var/lib/detio/vertice/vertice.conf*
 
 Go to
 
 ```bash
 
-$ cd /var/lib/megam
+$ cd /var/lib/detio
 
 ```
 
-Configure */var/lib/megam/nilavu.conf*
+Configure */var/lib/detio/nilavu.conf*
 {: .info}
 
-*/var/lib/megam/site_settings.yaml* file is self explanatory, tweak as you wish.
+*/var/lib/detio/site_settings.yaml* file is self explanatory, tweak as you wish.
 
-*/var/lib/megam/nilavu.conf*
+*/var/lib/detio/nilavu.conf*
 
 ~~~yaml
 
@@ -57,7 +57,7 @@ vnc_server = ws://localhost:8000
 
 ~~~
 
-Configure */var/lib/megam/VirtEnginegateway/gateway.conf*
+Configure */var/lib/detio/virtenginegateway/gateway.conf*
 {: .info}
 
 
@@ -95,7 +95,7 @@ nsq.events.muted_emails = ["tour@virtengine.com"]
 
 ~~~
 
-Configure */var/lib/megam/VirtEngine/VirtEngine.conf*
+Configure */var/lib/detio/vertice/vertice.conf*
 {: .info}
 
 

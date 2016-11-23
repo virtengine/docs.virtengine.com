@@ -16,7 +16,7 @@ Now that you have configured to your hearts content, its time to see if the `ind
 
 You'll see a cool UI.
 
-The log files are located in */var/log/VirtEnginenilavu/unicorn.log*
+The log files are located in */var/www/VirtEnginenilavu/log/unicorn.stdout.log*
 
 
 ### API - gateway
@@ -42,7 +42,7 @@ The log files are located in */var/log/VirtEnginenilavu/unicorn.log*
 }
 ~~~
 
-The log files are located in  */var/log/VirtEnginegateway/*
+The log files are located in  */var/log/detio/VirtEnginegateway/*
 
 
 ### Omnischeduler
@@ -51,7 +51,7 @@ The log files are located in  */var/log/VirtEnginegateway/*
 
 You'll see a web page.
 
-The log files are located in */var/log/VirtEngine*
+The log files are located in */var/log/detio/VirtEngine*
 
 #### *optional* Cassandra
 

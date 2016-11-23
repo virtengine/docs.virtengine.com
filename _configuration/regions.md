@@ -6,7 +6,7 @@ requirements:
   plan: free
 ---
 
-Configure */var/lib/megam/regions.yml* to modify the regions to allow an user to choose the region in our product Console (UI - nilavu)
+Configure */var/lib/detio/regions.yml* to modify the regions to allow an user to choose the region in our product Console (UI - nilavu)
 
 ---
 

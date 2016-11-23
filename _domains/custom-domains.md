@@ -38,11 +38,11 @@ Go to
 
 ```bash
 
-$ cd /var/lib/megam
+$ cd /var/lib/detio
 
 ```
 
-Configure */var/lib/megam/VirtEnginegateway/gateway.conf*
+Configure */var/lib/detio/virtenginegateway/gateway.conf*
 {: .info}
 
 
@@ -57,7 +57,7 @@ domain = "megambox.com"
 
 ### Configure Omni scheduler - VirtEngine
 
-Configure */var/lib/megam/VirtEngine/VirtEngine.conf*
+Configure */var/lib/detio/vertice/vertice.conf*
 {: .info}
 
 
