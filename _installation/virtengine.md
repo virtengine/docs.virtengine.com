@@ -130,49 +130,6 @@ $ service cassandra restart
 
 ~~~
 
-
-
-##### Enable password-auth in cassandra
-
-Open the file */etc/cassandra/cassandra.yaml* in your favourite EDITOR.
-
-Lets use *nano*
-
-~~~bash
-
-$ nano  /etc/cassandra/cassandra.yaml
-
-~~~
-
-- Change authenticator  “AllowAllAuthenticator” to “PasswordAuthenticator”.
-
-- Change authorizer “AllowAllAuthorizer” to “CassandraAuthorizer”
-
-~~~yaml
-
-  # - AllowAllAuthenticator performs no checks - set it to disable authentication.
-  # - PasswordAuthenticator relies on username/password pairs to authenticate
-  #   users. It keeps usernames and hashed passwords in system_auth.credentials table.
-  #   Please increase system_auth keyspace replication factor if you use this authenticator.
-  #   If using PasswordAuthenticator, CassandraRoleManager must also be used (see below)
-  authenticator: PasswordAuthenticator
-
-  # - AllowAllAuthorizer allows any action to any user - set it to disable authorization.
-  # - CassandraAuthorizer stores permissions in system_auth.permissions table. Please
-  #   increase system_auth keyspace replication factor if you use this authorizer.
-  authorizer: CassandraAuthorizer
-
-~~~
-
-
-Restart the cassandra (in all operating systems)
-
-~~~bash
-
-$ service cassandra restart
-
-~~~
-
 ---
 
 ### Install OpenSource VirtEngine
@@ -296,15 +253,38 @@ To stop VirtEngine
 
 #### CentOS 7.2 *experimental*
 
+At the start, install Ruby2.3 and Runit for VerticeNilavu.
+
+##### Ruby2.3
+
+~~~bash
+
+$ wget https://github.com/feedforce/ruby-rpm/releases/download/2.3.1/ruby-2.3.1-1.el7.centos.x86_64.rpm
+
+$ sudo yum install -y libyaml
+
+$ sudo rpm -ivh ruby-2.3.1-1.el7.centos.x86_64.rpm
+
+~~~
+##### Runit
+
+~~~bash
+
+$ curl -s https://packagecloud.io/install/repositories/imeyer/runit/script.rpm.sh | sudo bash
+
+$ sudo yum install -y runit-2.1.1-7.el7.centos.x86_64
+
+~~~
+
 ~~~bash
 
   cat << EOT > /etc/yum.repos.d/virtengine.repo
-  [virtengine]
-  name=virtengine
-  baseurl=https://get.virtengine.com/repo/1.5/centos/7.2/stable
-  enabled=1
-  gpgcheck=0
-  EOT
+[virtengine]
+name=virtengine
+baseurl=https://get.virtengine.com/repo/1.5/centos/7.2/stable
+enabled=1
+gpgcheck=0
+EOT
 
   sudo yum update
 
@@ -327,6 +307,12 @@ To start VirtEngine
   sudo systemctl start virtenginevnc
 
   sudo systemctl start virtengine
+
+  if sv service does not start to run the following command
+
+  runsvdir /var/service &
+
+  then do this
 
   sudo sv start nginx
 

@@ -18,11 +18,11 @@ Go to
 
 ```bash
 
-$ cd /var/lib/virtengine
+$ cd /var/lib/detio
 
 ```
 
-Lets configure */var/lib/virtengine/VirtEngine/VirtEngine.conf*
+Lets configure */var/lib/detio/vertice/vertice.conf*
 {: .info}
 
 ~~~yaml
