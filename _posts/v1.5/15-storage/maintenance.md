@@ -80,6 +80,6 @@ When in indeed, transfer the image via sftp to the OpenNebula Frontend
 Import it back into OpenNebula. 
 [block:html]
 {
-  "html": "<div></div>\n<a class=\"megam-button\" href=\"http://docs.virtengine.com/docs/megam_ceph_usage\" role=\"button\" target=\"_blank\">Go to the ceph usage (advanced)</a>\n<style>\n\n</style>"
+  "html": "<div></div>\n<a class=\"megam-button\" href=\"http://docs.virtengine.com/docsvirtengine_ceph_usage\" role=\"button\" target=\"_blank\">Go to the ceph usage (advanced)</a>\n<style>\n\n</style>"
 }
 [/block]

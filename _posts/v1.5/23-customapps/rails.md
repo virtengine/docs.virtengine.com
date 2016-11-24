@@ -18,7 +18,7 @@ You're almost there
 
 ##5. Pick a repository 
 
-Choose your public or private repository. Let us use [Github: megamsys/nilavu](https://github.com/megamsys/nilavu.git)
+Choose your public or private repository. Let us use [Github: megamsys/nilavu](https://github.comvirtenginesys/nilavu.git)
 
 ##6. Launch Rails App
 
@@ -26,12 +26,12 @@ Click Create.
 
 ##7. Make changes to your Rails App code *optional*
 
-Let us say we want to make changes in the code. In our case the sample starter pack app code is [nilavu](https://github.com/megamsys/nilavu.git)
+Let us say we want to make changes in the code. In our case the sample starter pack app code is [nilavu](https://github.comvirtenginesys/nilavu.git)
 [block:code]
 {
   "codes": [
     {
-      "code": "$ git clone https://github.com/megamsys/nilavu.git",
+      "code": "$ git clone https://github.comvirtenginesys/nilavu.git",
       "language": "shell"
     }
   ]
@@ -55,7 +55,7 @@ Let us say we are done testing the changes and want to push the changes to Git/G
 {
   "codes": [
     {
-      "code": "$ cd nilavu\n\n$ git push master\n\nUsername for 'https://github.com': megamio\nPassword for 'https://megamio@github.com': \n\nTo https://github.com/indykish/nilavu.git\n   1d26d24..5cabacb  master -> master\n",
+      "code": "$ cd nilavu\n\n$ git push master\n\nUsername for 'https://github.com': megamio\nPassword for 'https:/virtengineio@github.com': \n\nTo https://github.com/indykish/nilavu.git\n   1d26d24..5cabacb  master -> master\n",
       "language": "shell"
     }
   ]

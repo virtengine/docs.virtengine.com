@@ -12,7 +12,7 @@ At the start, install OpenJDK8 and cassandra for which the following are needed.
 | Operating System                        | Status                                                |
 |:-------------------------------------- :| :---------------------------------------------------- |
 | Ubuntu 14.04, 16.04, Debian 8.5         | Well tested                                           |
-| CentOS 7.2                              | *experimental*, [report issues](https://github.com/megamsys/gitpackager){: target="_blank"} |
+| CentOS 7.2                              | *experimental*, [report issues](https://github.comvirtenginesys/gitpackager){: target="_blank"} |
 
 
 ---
@@ -337,4 +337,4 @@ To stop VirtEngine
 
 ### Docker Images
 
-Here you may be in a position to  use [Habitat - Docker images](https://github.com/megamsys/habitat_plans){: target="_blank"}. *Your choice is open to contribute habitat packages by intimating your interest to the [forum](http://forums.virtengine.com){: target="_blank"}.*
+Here you may be in a position to  use [Habitat - Docker images](https://github.comvirtenginesys/habitat_plans){: target="_blank"}. *Your choice is open to contribute habitat packages by intimating your interest to the [forum](http://forums.virtengine.com){: target="_blank"}.*

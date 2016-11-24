@@ -77,4 +77,4 @@ Configure */var/lib/detio/vertice/vertice.conf*
 
 ~~~
 
-Restart `VirtEnginegateway` and `VirtEngine`.
+Restart `virtenginegateway` and `virtengine`.

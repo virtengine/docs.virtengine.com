@@ -4,7 +4,7 @@ excerpt: "So you have decided to extend and contribute"
 ---
 #Source to your own open source PaaS - VirtEngine
 
-[We have instructions in the Wiki](https://github.com/megamsys/VirtEngine/wiki)
+[We have instructions in the Wiki](https://github.comvirtenginesys/VirtEngine/wiki)
 
 #Concepts
 
@@ -102,4 +102,4 @@ When *x*'s agent has stopped the service
 When *x*'s agent has upgraded the operation
 - Agent will only upgrade when you are in `running, or ____ed [started, stopped, upgraded]` state
 
-For more information, read this [pull request](https://github.com/megamsys/gulp/pull/104)
+For more information, read this [pull request](https://github.comvirtenginesys/gulp/pull/104)
