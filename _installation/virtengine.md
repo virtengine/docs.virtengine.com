@@ -279,12 +279,12 @@ $ sudo yum install -y runit-2.1.1-7.el7.centos.x86_64
 ~~~bash
 
   cat << EOT > /etc/yum.repos.d/virtengine.repo
-  [virtengine]
-  name=virtengine
-  baseurl=https://get.virtengine.com/repo/1.5/centos/7.2/stable
-  enabled=1
-  gpgcheck=0
-  EOT
+[virtengine]
+name=virtengine
+baseurl=https://get.virtengine.com/repo/1.5/centos/7.2/stable
+enabled=1
+gpgcheck=0
+EOT
 
   sudo yum update
 
