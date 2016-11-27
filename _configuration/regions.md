@@ -6,10 +6,6 @@ requirements:
   plan: free
 ---
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 6fea70ad1d42ef8acfe44b121886c64aa0a2961d
 Configure */var/lib/detio/regions.yml* to modify the regions to allow an user to choose the region in our product Console (UI - nilavu)
 
 ---

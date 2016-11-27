@@ -23,10 +23,7 @@ $ cd /var/lib/detio
 ```
 
 Configure */var/lib/detio/vertice/vertice.conf*
-<<<<<<< HEAD
 
-=======
->>>>>>> 6fea70ad1d42ef8acfe44b121886c64aa0a2961d
 {: .info}
 
 ~~~yaml
