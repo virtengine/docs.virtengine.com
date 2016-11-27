@@ -10,7 +10,6 @@ Tweaks are needed to supporting VPS, Containers.
 
 ##UI
 
-
 1. */var/lib/detio/site_settings.yaml* file is self explanatory, tweak as you wish.
 
 2. */var/lib/detio/nilavu.conf*
@@ -20,7 +19,6 @@ Tweaks are needed to supporting VPS, Containers.
     {
       "code": "## api host that the UI will connect to\nhttp_api = localhost\n\n## log stream that the UI will connect to. \nlog_server = ws://localhost:7777/logs\n\n### vnc server that the UI will connec to.\nvnc_server = ws://localhost:8000",
       "language": "text",
-
       "name": "/var/lib/detio/nilavu.conf"
     }
   ]

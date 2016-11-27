@@ -32,7 +32,7 @@ To do this, download  and untar the images as per the instructions given below:
 
 $ wget -O ubuntu_16.04.img.tar.gz https://s3-ap-southeast-1.amazonaws.com/megampub/iso/ubuntu_16.04.tar.gz
 
-$ wget -O megam.img.tar.gz https://s3-ap-southeast-1.amazonaws.comvirtenginepub/isovirtengine.tar.gz
+$ wget -O megam.img.tar.gz https://s3-ap-southeast-1.amazonaws.com/megampub/isovirtengine.tar.gz
 
 $ wget -O coreos_latest.img.tar.gz https://s3-ap-southeast-1.amazonaws.com/megampub/iso/coreos_latest.tar.gz
 
