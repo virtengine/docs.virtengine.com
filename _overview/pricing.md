@@ -32,18 +32,17 @@ permalink: /pricing
 | Features                                             | OpenSource                                              | Enterprise                                             |
 | ---------------------------------------------------- | ------------------------------------------------------- | ------------------------------------------------------ |
 | --------------------------------------               | :--------------------:                                  | -----------:                                           |
-| Virtual Machines                                     | Yes                                                     | Yes                                                    |
-| 100's of Bitnami apps in a second                    | Yes                                                     | Yes                                                    |
-| 1000's of Docker registry using an  intuitive search | Yes                                                     | Yes                                                    |
-| Apps, services(db, queue, nosql..)                   | Yes                                                     | Yes                                                    |
-| Custom apps with integration to Github               | Yes                                                     | Yes                                                    |
-| Snapshots                                            | Yes                                                     | Yes                                                    |
-| Block Storage for VM                                 | Yes                                                     | Yes                                                    |
-| Real-time monitor/Logging                            | Yes                                                     | Yes                                                    |
+| Virtual Machines                                     | ![Supported](images/tick.png)                           | ![Supported](images/tick.png)                          |
+| 100's of Bitnami apps in a second                    | ![Supported](images/tick.png)                           | ![Supported](images/tick.png)                          |
+| 1000's of Docker registry using an  intuitive search | ![Supported](images/tick.png)                           | ![Supported](images/tick.png)                          |
+| Apps, services(db, queue, nosql..)                   | ![Supported](images/tick.png)                           | ![Supported](images/tick.png)                          |
+| Custom apps with integration to Github               | ![Supported](images/tick.png)                           | ![Supported](images/tick.png)                          |
+| Snapshots                                            | ![Supported](images/tick.png)                           | ![Supported](images/tick.png)                          |
+| Block Storage for VM                                 | ![Supported](images/tick.png)                           | ![Supported](images/tick.png)                          |
+| Real-time monitor/Logging                            | ![Supported](images/tick.png)                           | ![Supported](images/tick.png)                          |
 |                                                      |                                                         |                                                        |
-| White-labelling                                      | No                                                      | Yes                                                    |
-| Multi region data center                             | No                                                      | Yes                                                    |
-| Integrated billing with WHMCS                        | No                                                      | Yes                                                    |
-| Cloud Storage like S3                                | No                                                      | Yes                                                    |
-| Secure Containers *coming-soon*                      | No                                                      | Yes                                                    |
+| White-labelling                                      | No                                                      | ![Supported](images/tick.png)                          |
+| Multi region data center                             | No                                                      | ![Supported](images/tick.png)                          |
+| Cloud Storage like S3                                | No                                                      | ![Supported](images/tick.png)                          |
+| Secure Containers *coming-soon*                      | No                                                      | ![Supported](images/tick.png)                          |
 | Monthly Cost                                         | Free (Community Support)                                | Plans from $100/mo                                     |
