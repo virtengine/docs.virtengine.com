@@ -158,4 +158,4 @@ The following depicts a 3 Node topology. Additional storage can done in master/s
 
 The following section details the supported topology models using LVM and Ceph:
 
-
+![Topology SAN Like](/img/gettingstarted/architecture_overview.png){: srcset="/img/gettingstarted/architecture_overview.png 800w, /img/gettingstarted/architecture_overview.png 1600w"}
