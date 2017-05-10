@@ -54,7 +54,7 @@ a. Hardware
 
 LVM and its volumes present the approach to build clusters using commodity hardware attached to compute nodes.
 
-![Topology receommended](/img/gettingstarted/VirtEngine_topology_lvm.png){: srcset="/img/gettingstarted/VirtEngine_topology_lvm.png 800w, /img/gettingstarted/VirtEngine_topology_lvm.png 1600w"}
+![Topology receommended](/img/gettingstarted/lvm-architecture.png){: srcset="/img/gettingstarted/lvm-architecture.png 800w, /img/gettingstarted/lvm-architecture.png 1600w"}
 {: .has-screenshot}
 
 Every compute node possesses its own LVM volume.
@@ -116,7 +116,7 @@ Recommended Setup:
 
 ### SAN Setup:
 
-![Topology SAN Like](/img/gettingstarted/VirtEngine_topology_san.png){: srcset="/img/gettingstarted/VirtEngine_topology_san.png 800w, /img/gettingstarted/VirtEngine_topology_san.png 1600w"}
+![Topology SAN Like](/img/gettingstarted/san_architecture.png){: srcset="/img/gettingstarted/san_architecture.png 800w, /img/gettingstarted/san_architecture.png 1600w"}
 {: .has-screenshot}
 
 
