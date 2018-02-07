@@ -46,14 +46,14 @@ Installing OpenNebula's Front-End includes the following packages:
 - OpenNebula Daemon
 
 
-[Sunstone Deployment](https://docs.opennebula.org/5.4/deployment/opennebula_installation/index.html)
+##### [Front-End Deployment](https://docs.opennebula.org/5.4/deployment/opennebula_installation/index.html)
 
 
 #### OpenNebula KVM Node
 
 When installing a KVM Node you must provide password-less access from the Master to the Node.
 
-[KVM Node Deployment](https://docs.opennebula.org/5.4/deployment/node_installation/kvm_node_installation.html)
+##### [KVM Node Deployment](https://docs.opennebula.org/5.4/deployment/node_installation/kvm_node_installation.html)
 
 ### Demo of Installing OpenNebula + VirtEngine
 
