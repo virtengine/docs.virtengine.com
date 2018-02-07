@@ -15,6 +15,8 @@ VirtEngine is an excellent turnkey Virtualization platform that enables business
 
 VirtEngine supports both a public model (for hosting providers) & a private model (for internal use)
 
+VirtEngine works by integrating with OpenNebula, Docker, and Ceph to offer VM / Containers & Storage to the end-user.
+
 ### What is a cloud?
 
 A Cloud is a group of Phsyical Computing resources that provides flexibily to the users, users are able to launch Computing Power on demand.

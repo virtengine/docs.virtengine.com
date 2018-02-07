@@ -30,7 +30,7 @@ OpenNebula is a fully Open Source Management Platform that allows you to delpoy 
 - [VXLAN Networks](https://docs.opennebula.org/5.4/deployment/open_cloud_networking_setup/vxlan.html)
 - [Open vSwitch Networks](https://docs.opennebula.org/5.4/deployment/open_cloud_networking_setup/vxlan.html)
 
-##Setup and Deployment
+## Setup and Deployment
 
 OpenNebula is fairly simple to install and delpoy, and we recommend deploying it before installing VirtEngine.
 
@@ -38,7 +38,7 @@ VirtEngine is tested and stable with KVM, the default Hypervisor of OpenNebula.
 
 In order to use Opennebula, you need to install Sunstone on a Management Server - and then install as much KVM Nodes as you'd like.
 
-####OpenNebula Front-End
+#### OpenNebula Front-End
 Installing OpenNebula's Front-End includes the following packages:
 - Sunstone (User Interface)
 - CLI Tools
@@ -49,7 +49,7 @@ Installing OpenNebula's Front-End includes the following packages:
 [Sunstone Deployment](https://docs.opennebula.org/5.4/deployment/opennebula_installation/index.html)
 
 
-####OpenNebula KVM Node
+#### OpenNebula KVM Node
 
 When installing a KVM Node you must provide password-less access from the Master to the Node.
 
