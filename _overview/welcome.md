@@ -11,7 +11,7 @@ permalink: /
 
 ## What is VirtEngine?
 
-VirtEngine is an excellent turnkey Virtualization platform that enables businesses to build, run scale and manage virtual machines, apps, containers entirely in your own fault tolerant cloud.
+VirtEngine is a Virtualization platform that enables businesses to build, run scale and manage virtual machines, apps, containers entirely in your multiple independant fault tolerant clouds.
 
 VirtEngine supports both a public model (for hosting providers) & a private model (for internal use)
 
