@@ -20,3 +20,8 @@ VirtEngine  provides hooks/triggers from WHMCS to notify on invoice, order or pa
 1. Enable billing
 2. Ensure that users can add funds to your WHMCS Installation
  - Go to Setup -> General Settings -> Credit & Enable 'adding funds' while disabling Require Active Order.
+
+
+### Get in touch with our team.
+
+If you'd like to test VirtEngine's billing modules, make sure to contact us via email - hello@virtengine.com

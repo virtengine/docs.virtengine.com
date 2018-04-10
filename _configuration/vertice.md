@@ -118,18 +118,24 @@ Import *Vertice Keyspace in Cassandra*
 To do this, download  the following cql files:
 
 ~~~bash
+wget https://raw.githubusercontent.com/VirtEngine/gateway/1.5.2/db/base.cql
 
-wget -O base.cql https://raw.githubusercontent.com/VirtEngine/gateway/1.5/db/base.cql
-wget -O upgrade.cql https://raw.githubusercontent.com/VirtEngine/gateway/1.5/db/1.5.cql
-wget -O enterprise.cql https://raw.githubusercontent.com/VirtEngine/gateway/1.5/db/ee.cql
+wget https://raw.githubusercontent.com/VirtEngine/gateway/1.5.2/db/1.5.cql
+
+wget https://raw.githubusercontent.com/VirtEngine/gateway/1.5.2/db/1.5.1.cql
+
+wget https://raw.githubusercontent.com/VirtEngine/gateway/1.5.2/db/1.5.2.cql
+
+wget https://raw.githubusercontent.com/VirtEngine/gateway/1.5.2/db/ee.cql
+
 
 ~~~
 
 ~~~bash
+cqlsh -f base.cql
 
 ## Update base.cql file in cassandra. Change localhost to your private_ip
-
- cqlsh localhost -f base.cql
+## Modify cassandra.yaml in /etc/cassandra/ -> authenticator: PasswordAuthenticator, authorizer -> CassandraAuthorizer
 
 ~~~
 
@@ -179,9 +185,13 @@ $ service cassandra restart
 
 ## Upgrade the cql file using cassandra username and password. change localhost to your private_ip
 
-cqlsh localhost vertadmin vertadmin -f upgrade.cql
+cqlsh -u vertadmin -p vertadmin -f 1.5.cql
 
-cqlsh localhost vertadmin vertadmin -f enterprise.cql
+cqlsh -u vertadmin -p vertadmin -f 1.5.1.cql
+
+cqlsh -u vertadmin -p vertadmin -f 1.5.2.cql
+
+cqlsh -u vertadmin -p vertadmin -f ee.cql
 
 ~~~
 

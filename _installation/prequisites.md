@@ -19,7 +19,7 @@ You can setup OpenNebula's Storage through [ceph](http://ceph.com){: target="_bl
 
 The system gets booted by OpenNebula using the context `init.sh` for the purpose of setting up networking and agent inside the VM.
 
-Hence a context shell script in directory */VirtEngine* should be created initially. For guidance please read  the documentation [provided here](https://github.comvirtenginesys/gitpackager/blob/master/support/README.md){: target="_blank"}.
+Hence a context shell script in directory */VirtEngine* should be created initially. For guidance please read  the documentation [provided here](https://github.com/virtengine/gitpackager/blob/master/support/README.md){: target="_blank"}.
 
 
 ## Import Images in OpenNebula

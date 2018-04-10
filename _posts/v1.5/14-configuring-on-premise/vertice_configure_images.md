@@ -15,8 +15,8 @@ So lets create a context shell script in the directory '/VirtEngine`.  The scrip
 [block:embed]
 {
   "html": false,
-  "url": "https://github.comvirtenginesys/libmegdc/blob/master/init.sh",
-  "title": "megamsys/libmegdc",
+  "url": "https://raw.githubusercontent.com/VirtEngine/gitpackager/master/support/init.sh",
+  "title": "virtengine/gitpackager",
   "favicon": "https://assets-cdn.github.com/favicon.ico"
 }
 [/block]
@@ -25,7 +25,7 @@ So lets create a context shell script in the directory '/VirtEngine`.  The scrip
 {
   "codes": [
     {
-      "code": "mkdir /VirtEngine\n\ncd VirtEngine\n\nwget https://raw.githubusercontent.comvirtenginesys/libmegdc/master/init.sh\n\nls",
+      "code": "mkdir /VirtEngine\n\ncd VirtEngine\n\nwget https://raw.githubusercontent.com/VirtEngine/gitpackager/master/support/init.sh\n\nls",
       "language": "shell",
       "name": "/VirtEngine/init.sh"
     }
