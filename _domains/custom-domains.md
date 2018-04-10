@@ -50,8 +50,8 @@ Configure */var/lib/detio/virtenginegateway/gateway.conf*
 
 ## organization/domain registered
 ################################
-org    = "megamdev"
-domain = "megambox.com"
+org    = "virtengine"
+domain = "virtengine.cloud"
 
 ~~~
 
