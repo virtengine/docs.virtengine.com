@@ -6,7 +6,7 @@ You will enter Megam VirtEngine [UI http://localhost:8080](doc:VirtEngine_up)  t
 
 ##1. Click Marketplaces on the top bar  or `NEW`
 
-Marketplace contains all the linux distros,  applications, services and microservices which megam VirtEngine supports. 
+Marketplace contains all the linux distros,  applications, services and microservices which VirtEngine supports. 
 
 ##3. Click Rails icon (Ruby)
 
@@ -18,7 +18,7 @@ You're almost there
 
 ##5. Pick a repository 
 
-Choose your public or private repository. Let us use [Github: megamsys/nilavu](https://github.comvirtenginesys/nilavu.git)
+Choose your public or private repository. Let us use [Github: virtengine/VirtEngine-UI](https://github.com/virtengine/VirtEngine-UI.git)
 
 ##6. Launch Rails App
 
@@ -26,7 +26,7 @@ Click Create.
 
 ##7. Make changes to your Rails App code *optional*
 
-Let us say we want to make changes in the code. In our case the sample starter pack app code is [nilavu](https://github.comvirtenginesys/nilavu.git)
+Let us say we want to make changes in the code. In our case the sample starter pack app code is [Github: virtengine/VirtEngine-UI](https://github.com/virtengine/VirtEngine-UI.git)
 [block:code]
 {
   "codes": [
