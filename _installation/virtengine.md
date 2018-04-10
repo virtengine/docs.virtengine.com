@@ -50,44 +50,15 @@ In case you find issues in installing cassandra 3.9 in *Ubuntu 16.04*, follow th
 
 ~~~bash
 
-$ sudo echo "deb http://debian.datastax.com/datastax-ddc 3.7 main" | sudo tee -a /etc/apt/sources.list.d/cassandra.sources.list
+$ echo "deb http://www.apache.org/dist/cassandra/debian 39x main" | sudo tee -a /etc/apt/sources.list.d/cassandra.sources.list
 
-$ sudo curl -L https://debian.datastax.com/debian/repo_key | sudo apt-key add -
+$ curl https://www.apache.org/dist/cassandra/KEYS | sudo apt-key add -
 
 $ sudo apt-get update
 
-$ sudo apt-get install datastax-ddc
+$ sudo apt-get install cassandra
 
 ~~~
-
-##### Enable access using *private_ip*
-
-Open the file */etc/cassandra/cassandra.yaml* in your favourite EDITOR.
-
-Lets use *nano*
-
-~~~bash
-
-$ nano  /etc/cassandra/cassandra.yaml
-
-~~~
-
-- Change *listen_address* to *private_ip*
-
-- Change *rpc_address* to *private_ip*
-
-- Change *seeds* to *private_ip*
-
-
-Restart the cassandra (in all operating systems)
-
-~~~bash
-
-$ service cassandra restart
-
-~~~
-
----
 
 ### Install OpenSource VirtEngine
 
@@ -101,7 +72,7 @@ $ service cassandra restart
 
   sudo apt-get update
 
-  sudo apt-get install virtenginenilavu virtenginegateway nsqd virtengine virtenginevnc
+  sudo apt-get --allow-unauthenticated install virtenginenilavu virtenginegateway nsqd virtengine virtenginevnc
 
 ~~~
 
@@ -155,11 +126,11 @@ To stop VirtEngine then
 
   sudo apt-add-repository "deb [arch=amd64] https://get.virtengine.com/repo/1.5.2/ubuntu/16.04/stable xenial stable"
 
-  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 9B46B611
+  //sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 9B46B611
 
   sudo apt-get update
 
-  sudo apt-get install virtenginenilavu virtenginegateway nsqd virtengine virtenginevnc
+  sudo apt-get --allow-unauthenticated install virtenginenilavu virtenginegateway nsqd virtengine virtenginevnc
 
 ~~~
 
@@ -301,4 +272,4 @@ To stop VirtEngine
 
 ### Docker Images
 
-Here you may be in a position to  use [Habitat - Docker images](https://github.com/megamsys/habitat_plans){: target="_blank"}. *Your choice is open to contribute habitat packages by intimating your interest to the [forum](http://forums.virtengine.com){: target="_blank"}.*
+Here you may be in a position to use [Docker container for VirtEngine in Dockerhub](https://github.com/virtengine/docker_virtengine){: target="_blank"}
