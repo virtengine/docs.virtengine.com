@@ -12,24 +12,8 @@ At the start, install OpenJDK8 and cassandra for which the following are needed.
 | Operating System                        | Status                                                |
 |:-------------------------------------- :| :---------------------------------------------------- |
 | Ubuntu 14.04, 16.04, Debian 8.5         | Well tested                                           |
-| CentOS 7.2                              | *experimental*, [report issues](https://github.com/virtengine/gitpackager){: target="_blank"} |
-
 
 ---
-
-#### Ubuntu 14.04
-
-##### OpenJDK8
-
-~~~bash
-
-$ sudo apt-add-repository -y ppa:openjdk-r/ppa
-
-$ sudo apt-get -y update
-
-$ sudo apt-get -y install openjdk-8-jdk
-
-~~~
 
 ##### Ruby2.3
 
@@ -43,53 +27,26 @@ $ sudo apt-get -y install ruby2.3 ruby2.3-dev
 
 ~~~
 
-##### Ubuntu 16.04
+##### OpenJDK-8 (Cassandra DB Dependancy)
 
 ~~~bash
 
 $ sudo apt-get install openjdk-8-jre-headless
 
 ~~~  
+#### Cassandra 3.9
 
-##### Debian Jessie
-
-~~~bash
-
-$ echo "deb http://http.debian.net/debian jessie-backports main" > /etc/apt/sources.list
-
-$ sudo apt-get update
-
-$ sudo apt-get install openjdk-8-jre-headless
-
-$ sudo apt-get install openjdk-8-jdk
-
-$ sudo /usr/sbin/update-java-alternatives -s java-1.8.0-openjdk-amd64
-
-~~~    
-
-##### CentOS 7.2
-
-~~~bash
-
-$ wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "http://download.oracle.com/otn-pub/java/jdk/8u45-b14/jdk-8u45-linux-x64.rpm"
-
-$ rpm -ivh jdk-8u45-linux-x64.rpm
-~~~
-
-#### Cassandra 3.7
-
-Install cassandra 3.7 by following the link for your operating system.
+Install cassandra 3.9 by following the link for your operating system.
 
 
 | Operating System             | Link                                                                                        |
 |:--------------------------- :| :------------------------------------------------------------------------------------------ |
 | Ubuntu 14.04/16.04/Debian 8.5|[Ubuntu/Debian](http://docs.datastax.com/en/cassandra/3.x/cassandra/install/installDeb.html){: target="_blank"} |
-| CentOS 7.2                   |[CentOS](http://docs.datastax.com/en/cassandra/3.x/cassandra/install/installRHEL.html){: target="_blank"}       |
 | Using tarball                |[All Linux using tarball](http://docs.datastax.com/en/cassandra/3.x/cassandra/install/installTarball.html){: target="_blank"}                                    |
 
-##### Ubuntu 14.04
+##### Ubuntu 16.04
 
-In case you find issues in installing cassandra 3.7 in *Ubuntu 14.04*, follow the instructions given below:
+In case you find issues in installing cassandra 3.9 in *Ubuntu 16.04*, follow the instructions given below:
 
 ~~~bash
 
@@ -138,7 +95,7 @@ $ service cassandra restart
 
 ~~~bash
 
-  sudo apt-add-repository "deb [arch=amd64] http://get.virtengine.com/repo/1.5/ubuntu/14.04/stable trusty stable"
+  sudo apt-add-repository "deb [arch=amd64] http://get.virtengine.com/repo/1.5.2/ubuntu/14.04/stable trusty stable"
 
   sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 9B46B611
 
@@ -196,7 +153,7 @@ To stop VirtEngine then
 
 ~~~bash
 
-  sudo apt-add-repository "deb [arch=amd64] https://get.virtengine.com/repo/1.5/ubuntu/16.04/stable xenial stable"
+  sudo apt-add-repository "deb [arch=amd64] https://get.virtengine.com/repo/1.5.2/ubuntu/16.04/stable xenial stable"
 
   sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 9B46B611
 
