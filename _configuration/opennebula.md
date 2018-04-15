@@ -68,7 +68,7 @@ chmod 755 /virtengine/init.sh
 nano /etc/one/oned.conf 
 ~~~
 
-~~~yaml
+~~~conf
 Ctrl + _ (Line 771)
 
 VM_HOOK = [
@@ -183,7 +183,7 @@ https://github.com/VirtEngine/gitpackager/tree/master/support
 ### Add VM Template to OpenNebula
 
 #Add empty template first, update the template with the following settings. 
-
+~~~yaml
 CONTEXT = [
   FILES = "/virtengine/init.sh",
   NETWORK = "YES",
@@ -212,3 +212,4 @@ OS = [
   ARCH = "x86_64" ]
 SCHED_REQUIREMENTS = "CLUSTER_ID=\"100\""
 VCPU = "1"
+~~~
