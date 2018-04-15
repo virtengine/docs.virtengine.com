@@ -182,7 +182,8 @@ https://github.com/VirtEngine/gitpackager/tree/master/support
 ### Add images to OpenNebula
 ### Add VM Template to OpenNebula
 
-#Add empty template first, update the template with the following settings. 
+# Add empty template first, update the template with the following settings. 
+
 ~~~yaml
 CONTEXT = [
   FILES = "/virtengine/init.sh",
