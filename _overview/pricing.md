@@ -19,13 +19,12 @@ permalink: /pricing
 | Micro-Services Docker                           | -                                                       | ![Supported](images/tick.png)                                                           |
 | Virtual Private Cloud                           | -                                                       | soon                                                                                    |
 | Customizable UI                                 | -                                                       | ![Supported](images/tick.png)                                                           |
-| Increased Publicity & Sales                     | -                                                       | Offer Cloud Bursting - Mentioned in Providers Section - Integrated with 3rd party tools |
+| [Public Cloud.tc Multi-Cloud](http://cloud.tc) Multi-Cloud Integration  |
 | Layers of High Availability                     | Incremental Offshore Backups                            | Load Balancing - VM Replication on Failure - Incremental Offshore Backups               |
 | Software Delivery                               | SaaS (or)  On-Premise                                   | SaaS (or)  On-Premise                                                                   |
 | Migration from KVM (SolusVM/OnApp/ProxMox/etc.) | soon                                                    | soon                                                                                    |
 | Billing                                         | WHMCS                                                   | WHMCS                                                                                   |
 | Monthly Cost                                    | $0.25 per GB of RAM - Deployed - (Up-to $16/month/node) | $0.5 per GB of RAM - Deployed - (Up-to $32/month/node)                                  |
-
 
 ### Private Cloud Editions (OpenSource/Licensed)
 
