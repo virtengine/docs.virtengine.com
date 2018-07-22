@@ -2,14 +2,14 @@ Opennebula Configuiration instructions
 
 # Setup Front-End OpenNebula:
 
-https://docs.opennebula.org/5.4/deployment/opennebula_installation/frontend_installation.html# 
+https://docs.opennebula.org/5.6/deployment/opennebula_installation/frontend_installation.html# 
 
 ## Follow instructions to install OpenNebula-Node + Master
 ~~~bash
 
 wget -q -O- https://downloads.opennebula.org/repo/repo.key | apt-key add -
 
-echo "deb https://downloads.opennebula.org/repo/5.4/Ubuntu/16.04 stable opennebula" > /etc/apt/sources.list.d/opennebula.list
+echo "deb https://downloads.opennebula.org/repo/5.6/Ubuntu/16.04 stable opennebula" > /etc/apt/sources.list.d/opennebula.list
 
 
 sudo apt-get update
@@ -25,7 +25,7 @@ systemctl start opennebula-sunstone
 
 # Setup Compute OpenNebula (Can be run in the same node)
 
-https://docs.opennebula.org/5.4/deployment/node_installation/index.html
+https://docs.opennebula.org/5.6/deployment/node_installation/index.html
 
 sudo apt-get install opennebula-node
 sudo service libvirt-bin restart #  ubuntu
