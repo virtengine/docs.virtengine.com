@@ -15,6 +15,10 @@ At the start, install OpenJDK8 and cassandra for which the following are needed.
 
 ---
 
+Find all the instructions contacted into one file for ease of installation: 
+
+[VirtEngine 1.5.2 & OpenNebula 5.6 Installation Gist](https://gist.github.com/jaeko44/b2f5926e3993d2014f7d73b49f2a2e6a)
+
 ##### Ruby2.3
 
 ~~~bash
