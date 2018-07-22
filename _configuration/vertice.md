@@ -205,14 +205,12 @@ Configure */var/lib/detio/vertice/vertice.conf*
 ###
 ### [meta]
 ###
-### Controls how VirtEngine connects to scylla, nsq
+### Controls how VirtEngine connects to API (Gateway Project)
 
   [meta]
-    api = "https://localhost:9000/v2"
-    nsqd = ["localhost:4150"]
-    scylla = ["localhost"]
-    scylla_keyspace = "VirtEngine"
-    scylla_username = "vertadmin"
-    scylla_password = "vertadmin"
-
+  api = "http://localhost:9000/v2"  #"https://api.megam.io/v2"
+  master_user = "virtengine@det.io"
+  master_key = "3b8eb672aa7c8db82e5d34a0744740b20ed59e1f6814cfb63364040b0994ee3f"
+  nsqd = ["localhost:4150"]
+    
 ~~~

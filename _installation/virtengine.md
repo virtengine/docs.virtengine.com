@@ -41,8 +41,8 @@ Install cassandra 3.9 by following the link for your operating system.
 
 | Operating System             | Link                                                                                        |
 |:--------------------------- :| :------------------------------------------------------------------------------------------ |
-| Ubuntu 14.04/16.04/Debian 8.5|[Ubuntu/Debian](http://docs.datastax.com/en/cassandra/3.x/cassandra/install/installDeb.html){: target="_blank"} |
-| Using tarball                |[All Linux using tarball](http://docs.datastax.com/en/cassandra/3.x/cassandra/install/installTarball.html){: target="_blank"}                                    |
+| Ubuntu 14.04/16.04/Debian 8.5|[Ubuntu/Debian](http://cassandra.apache.org/download/){: target="_blank"} |
+
 
 ##### Ubuntu 16.04
 
@@ -50,7 +50,7 @@ In case you find issues in installing cassandra 3.9 in *Ubuntu 16.04*, follow th
 
 ~~~bash
 
-$ echo "deb http://www.apache.org/dist/cassandra/debian 39x main" | sudo tee -a /etc/apt/sources.list.d/cassandra.sources.list
+$ echo "deb http://www.apache.org/dist/cassandra/debian 311x main" | sudo tee -a /etc/apt/sources.list.d/cassandra.sources.list
 
 $ curl https://www.apache.org/dist/cassandra/KEYS | sudo apt-key add -
 
