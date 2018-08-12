@@ -1,5 +1,5 @@
 ---
-title: OpenStack Hybrid Cloud Management Platform
+title: OpenStack Hybrid Cloud
 order: 2
 ---
 

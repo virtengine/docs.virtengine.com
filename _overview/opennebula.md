@@ -1,5 +1,5 @@
 ---
-title: OpenNebula Hybrid Cloud Management Platform
+title: OpenNebula Hybrid Cloud
 order: 2
 ---
 
