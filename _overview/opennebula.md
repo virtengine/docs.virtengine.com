@@ -1,11 +1,18 @@
 ---
-title: OpenNebula + VirtEngine
+title: OpenNebula Hybrid Cloud Management Platform
 order: 2
 ---
 
 This page explains more about what OpenNebula is and how it fits in with VirtEngine.
 
 ---
+
+## [VirtEngine](https://virtengine.com)
+
+VirtEngine is an Open Source Hybrid Cloud Management platform that integrates with multiple infrastructure endpoints, one of them being OpenNebula.
+
+VirtEngine offers a Hosting Provider edition that provides the ability to offer Infrastructure to end-users with billing enabled.
+
 
 ## [OpenNebula](https://opennebula.org)
 
@@ -23,6 +30,7 @@ OpenNebula is a fully Open Source Management Platform that allows you to delpoy 
 - [LVM](https://docs.opennebula.org/5.6/deployment/open_cloud_storage_setup/lvm_drivers.html#lvm-drivers)
 - [Raw Device Mapping Datastore](https://docs.opennebula.org/5.6/deployment/open_cloud_storage_setup/dev_ds.html#dev-ds)
 - [iSCSI - Libvirt Datastore](https://docs.opennebula.org/5.6/deployment/open_cloud_storage_setup/iscsi_ds.html#iscsi-ds)
+- [LizardFS](https://opennebula.org/ecosystem/lizardfs/)
 
 #### [Networking](https://docs.opennebula.org/5.6/deployment/open_cloud_networking_setup/index.html)
 - [Bridged Networks](https://docs.opennebula.org/5.6/deployment/open_cloud_networking_setup/bridged.html)
