@@ -20,14 +20,14 @@ OpenStack is an open source software that allows for the deployment and manageme
 
 #### [Hypervisor Virtualization](https://wiki.openstack.org/wiki/HypervisorSupportMatrix)
 - Group A:
-- [KVM/QEMU](https://docs.opennebula.org/5.6/deployment/open_cloud_host_setup/kvm_driver.html)
-- Group B:
+- [KVM/QEMU](https://wiki.openstack.org/wiki/HypervisorSupportMatrix#Group_A)
+- [Group B:
 - [Hyper-V](http://wiki.cloudbase.it/hyperv-tempest-exclusions)
 - [VMWare](https://wiki.openstack.org/wiki/NovaVMware/Minesweeper)
 - [XenServer](https://wiki.openstack.org/wiki/XenServer/XenServer_CI)
 - [Xen via libvirt](https://wiki.openstack.org/wiki/Xen/Libvirt)
-- Group C:
-- Bare-Metal
+- [Group C](https://wiki.openstack.org/wiki/HypervisorSupportMatrix#Group_C):
+- [Bare-Metal](https://wiki.openstack.org/wiki/HypervisorSupportMatrix#Group_C)
 - Docker Containers
 - LXC via Libvirt
 
