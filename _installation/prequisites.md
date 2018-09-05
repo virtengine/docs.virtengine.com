@@ -3,68 +3,22 @@ title: Pre-requisites
 order: 1
 ---
 
-We assume that you have a working [OpenNebula](https://opennebula.org){: target="_blank"}. If not, follow OpenNebula's documentation in order to set it up (It's not so complicated) [OpenNebula Docs](http://docs.opennebula.org/) if you run into any issues feel free to get in touch via our community  [forum](http://forums.virtengine.com){: target="_blank"}.
-
-You can setup OpenNebula's Storage through [ceph](http://ceph.com){: target="_blank"} or [lvm](https://wiki.ubuntu.com/Lvm){: target="_blank"} to store the Images & VM's.
-{: .info}
-
+### VirtEngine v1.x
+VirtEngine v1.x works with OpenNebula, Docker, Rancher, and Ceph to distribute Cloud Services.
 ---
 
-### Configuring OpenNebula
+### VirtEngine v2.x
+VirtEngine v2.x works with OpenStack, SLURM, DigitalOcean, OpenNebula (Eta 1-2 months), ProxMox (Eta 1-2 months).
 
-[VirtEngine](/) provides a marketplace for one click launches.  We need a running [OpenNebula](http://opennebula.org){: target="_blank"} with templates and images.
+### Choosing which edition is right for you.
 
+[VirtEngine 1.x](https://virtengine.com/products/minified.html) provides a marketplace for one click launches.  We need a running [OpenNebula](http://opennebula.org){: target="_blank"} with templates and images.
 
-## Init script
-
-The system gets booted by OpenNebula using the context `init.sh` for the purpose of setting up networking and agent inside the VM.
-
-Hence a context shell script in directory */VirtEngine* should be created initially. For guidance please read  the documentation [provided here](https://github.com/virtengine/gitpackager/blob/master/support/README.md){: target="_blank"}.
-
-
-## Import Images in OpenNebula
-
-Import all the images in OpenNebula to your `datastore`.
-
-To do this, download  and untar the images as per the instructions given below:
-
-~~~bash
-
-$ wget https://virtenginepub.blob.core.windows.net/iso/centos.tar.gz
-
-$ wget https://virtenginepub.blob.core.windows.net/iso/coreos_latest.tar.gz
-
-$ wget https://virtenginepub.blob.core.windows.net/iso/debian.tar.gz
-
-$ wget https://virtenginepub.blob.core.windows.net/iso/dockermachine.tar.gz
-
-$ wget https://virtenginepub.blob.core.windows.net/iso/fedora.tar.gz
-
-$ wget https://virtenginepub.blob.core.windows.net/iso/ubuntu_16.04.tar.gz
-
-$ wget https://virtenginepub.blob.core.windows.net/iso/ubuntu14.tar.gz
-
-
-$ tar -zxvf ubuntu_16.04.img.tar.gz ubuntu_16.04.img
-
-$ tar -zxvf coreos_latest.img.tar.gz
-
-$ tar -zxvf ubuntu_14.04.img.tar.gz
-mv ubuntu14.img ubuntu_14.04.img
-
-$ tar -zxvf fedora_24.img.tar.gz
-mv fedora.img fedora_24.img
-
-$ tar -zxvf debian_8.5.img.tar.gz
-mv debian.img debian_8.5.img
-
-$ tar -zxvf centos_7.1.img.tar.gz
-mv centos.img centos_7.1.img
-
-$ tar -zxvf dockermachine.1.12.img.tar.gz
-mv dockermachine.img dockermachine.1.12.img
+[VirtEngine 2.x](https://virtengine.com/products/opensource.html) provides infrastructure management and distribution with lots of various integrations.
 
 ~~~
 
-Next, install VirtEngine to deploy virtual machines using OpenNebula [here](/installation/VirtEngine/).
+Next, install VirtEngine 1.x to deploy virtual machines using OpenNebula [VirtEngine 1.x Installation Instructions](/installation/VirtEngine/).
 {: .info}
+
+Or, install VirtEngine Waldur to deploy cloud services from: [VirtEngine Waldur Installation Instructions](https://opennode.atlassian.net/wiki/spaces/WD/overview)
