@@ -1,5 +1,5 @@
 <p class="info">
-<button type="btn btn-sm" class="btn btn-info"><b>1.5 RC</b>
+<button type="btn btn-sm" class="btn btn-info"><b>2.0 Stable</b>
 </button>
-is nearing stable, heavily tested by customers.
+Production ready platform, with existing enterprise use.
 </p>
