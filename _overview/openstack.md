@@ -50,5 +50,5 @@ OpenStack is an open source software that allows for the deployment and manageme
 
 OpenStack can be deployed through various methods, the simplest being DevStack - however it would not be recommended to use DevStack for production and is instead a better tool for testing the platform. Other examples of deployments can be found here: [OpenStack Deployment](https://docs.openstack.org/queens/deploy/)
 
-In order to use OpenStack with VirtEngine, you would need to install VirtEngine Waldur - Documentation can be found in [Waldur Documentation](https://docs.waldur.com)
+In order to use OpenStack with VirtEngine, you would need to install VirtEngine Waldur - Documentation can be found in [Waldur Documentation](http://docs.waldur.com)
 
