@@ -6,7 +6,7 @@ permalink: /
 
 ### Homepage
 
-[VirtEngine - Powering Public & Private Clouds](http://virtengine.com)
+[VirtEngine - Powering Public & Private Clouds](https://virtengine.com)
 
 
 ## What is VirtEngine?
@@ -16,6 +16,10 @@ VirtEngine is a Virtualization platform that enables businesses to build, run sc
 VirtEngine supports both a public model (for hosting providers) & a private model (for internal use)
 
 VirtEngine works by integrating with OpenNebula, Docker, and Ceph to offer VM / Containers & Storage to the end-user.
+
+## Open Source
+
+The VirtEngine project is completely Open Source, and can be found at [GitHub - VirtEngine](https://github.com/virtengine)
 
 ### What is a cloud?
 
