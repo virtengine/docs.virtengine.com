@@ -6,7 +6,6 @@ order: 1
 ### VirtEngine v1.x (DEPRECATED)
 VirtEngine v1.x works with OpenNebula, Docker, Rancher, and Ceph to distribute Cloud Services.
 
-~ WARNING ~ - VIRTENGINE v1.x is no longer maintained, use VirtEngine 2.x via Waldur Platform for continued updates. [VirtEngine Waldur Installation Instructions](https://opennode.atlassian.net/wiki/spaces/WD/overview)
 ---
 
 ### VirtEngine v2.x
@@ -25,3 +24,6 @@ Install VirtEngine 1.x to deploy virtual machines using OpenNebula [VirtEngine 1
 
 (Recommended), install VirtEngine Waldur to deploy cloud services from: [VirtEngine Waldur Installation Instructions](https://opennode.atlassian.net/wiki/spaces/WD/overview)
 {: .info}
+
+(Warning), ~ WARNING ~ - VIRTENGINE v1.x is no longer maintained, use VirtEngine 2.x via Waldur Platform for continued updates. [VirtEngine Waldur Installation Instructions](https://opennode.atlassian.net/wiki/spaces/WD/overview)
+{: .warning}
