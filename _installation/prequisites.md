@@ -22,8 +22,8 @@ VirtEngine v2.x works with OpenStack, SLURM, DigitalOcean, OpenNebula (Eta 1-2 m
 Install VirtEngine 1.x to deploy virtual machines using OpenNebula [VirtEngine 1.x Installation Instructions](/installation/VirtEngine/).
 
 
-(Recommended), install VirtEngine Waldur to deploy cloud services from: [VirtEngine Waldur Installation Instructions](https://opennode.atlassian.net/wiki/spaces/WD/overview)
+~ (Recommended) ~, install VirtEngine Waldur to deploy cloud services from: [VirtEngine Waldur Installation Instructions](https://opennode.atlassian.net/wiki/spaces/WD/overview)
 {: .info}
 
-(Warning), ~ WARNING ~ - VIRTENGINE v1.x is no longer maintained, use VirtEngine 2.x via Waldur Platform for continued updates. [VirtEngine Waldur Installation Instructions](https://opennode.atlassian.net/wiki/spaces/WD/overview)
+~ (Warning) ~ - VIRTENGINE v1.x is no longer maintained, use VirtEngine 2.x via Waldur Platform for continued updates. [VirtEngine Waldur Installation Instructions](https://opennode.atlassian.net/wiki/spaces/WD/overview)
 {: .warning}
