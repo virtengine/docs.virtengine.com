@@ -7,7 +7,7 @@ $set-background: #fff;
 	display: flex;
 	-webkit-flex-flow: row wrap;
 	flex-flow: row wrap;
-	margin: -(math.div($space, 2));
+	margin: -(calc($space / 2));
 	padding: 0;
 }
 
