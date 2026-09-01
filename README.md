@@ -2,6 +2,11 @@
 
 VirtEngine - Private opensource + Private enterprise documentation.
 
+Current network launch documentation is published in
+[`_overview/network-launch-schedule.md`](_overview/network-launch-schedule.md):
+TestNet is planned for January 2027 and MainNet for March 2027 after a separate
+validation and production approval gate.
+
 ## Ruby  
 You need ruby 2.3.x
 
